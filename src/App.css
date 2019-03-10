@@ -82,10 +82,12 @@
   transition: color 0.2s;
 }
 
-.header .navigation div a:hover,
-.header .navigation div a:visited,
-.header .navigation div a:active {
-  color: black;
+.header .navigation div a:hover {
+  color: black !important;
+}
+
+.header .navigation div a:visited {
+  color: inherit;
 }
 
 .header .navigation-sub {
@@ -94,14 +96,18 @@
   display: flex;
 }
 
-.header .navigation-sub div a {
-  color: #BBBBBB;
-}
-
 .header .navigation .anne {
   font-size: 26px;
   width: calc(100% - 276px);
   line-height: 36px;
+}
+
+.header .navigation .navigation-sub .active {
+  color: black;
+}
+
+.header .navigation .navigation-sub .inactive {
+  color: #BBBBBB !important;
 }
 
 .header .navigation .navigation-sub .work, .articles {
@@ -151,6 +157,7 @@
 /* Individual Project */
 .project a {
   text-decoration: none;
+  color: inherit;
 }
 
 .project a:visited {

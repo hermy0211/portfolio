@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './App.css';
 
 class Project extends Component {
@@ -9,7 +10,7 @@ class Project extends Component {
   render() {
     return (
       <div className="project">
-        <a href="">
+        <Link to={this.props.link}>
           <div className="hmw">
             <div className="hmw-background" style={{backgroundColor: this.state.color}}>{this.props.hmw}</div>
           </div>
@@ -24,7 +25,7 @@ class Project extends Component {
               {this.props.category}
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     );
   }
