@@ -1,33 +1,286 @@
+/* Definte Custom Fonts */
+@font-face {
+    font-family: 'circular-std-black';
+    src: url('./font/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-black-italic';
+    src: url('./font/CircularStd-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-bold';
+    src: url('./font/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-bold-italic';
+    src: url('./font/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-medium';
+    src: url('./font/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-medium-italic';
+    src: url('./font/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'circular-std-book';
+    src: url('./font/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-std-book-italic';
+    src: url('./font/CircularStd-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Global Styles */
+
 .App {
-  text-align: center;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Header Styles */
+
+.header {
+  width: 100%;
+  margin-top: 115px;
+  margin-bottom: 76px;
+  font-family: circular-std-medium, Arial, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header .navigation {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.header .navigation div a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.header .navigation div a:hover,
+.header .navigation div a:visited,
+.header .navigation div a:active {
+  color: black;
+}
+
+.header .navigation-sub {
+  width: 276px;
+  font-size: 22px;
+  display: flex;
+}
+
+.header .navigation-sub div a {
+  color: #BBBBBB;
+}
+
+.header .navigation .anne {
+  font-size: 26px;
+  width: calc(100% - 276px);
+  line-height: 36px;
+}
+
+.header .navigation .navigation-sub .work, .articles {
+  padding-right: 40px;
+}
+
+.header .designer {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.header .speciality {
+  font-size: 20px;
+  color: #02CF5D;
+  line-height: 36px;
+}
+
+/* Projects */
+
+.projects {
+  width: 100%;
+  font-family: circular-std-medium, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects .left {
+  width: 369px;
+}
+
+.projects .left .projects-intro {
+  font-family: circular-std-book;
+  margin-top: 0px;
+  margin-bottom: 58px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.projects .left .projects-intro .bold {
+  font-family: circular-std-medium, Arial, sans-serif;
+}
+
+.projects .right {
+  width: 369px;
+}
+
+/* Individual Project */
+.project a {
+  text-decoration: none;
+}
+
+.project a:visited {
+  color: black;
+}
+
+.hmw {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.hmw:hover {
+  opacity: 1;
+}
+
+.hmw .hmw-background {
+  width: 369px;
+  height: 369px;
+  text-align: center;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.project-default {
+  width: 100%;
+  margin-bottom: 53px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-last {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.project-image {
+  margin-bottom: 19px;
+}
+
+.project-image-size {
+  width: 369px;
+  height: 369px;
+  box-shadow: 0px 0px 20px #DADADA;
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.project-category {
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer .footer-statement {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px auto 11px auto;
+  width: 100%;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer .social-links .social {
+  background-color: #000000;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.footer .social-links .social-last {
+  background-color: #000000;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin-right: 0px;
+}
+
+.footer .social-links .social .behance {
+  width: 19px;
+  height: 12px;
+  padding: 10px 6.5px 10px 6.5px;
+}
+
+.footer .social-links .social .linkedin {
+  width: 16px;
+  height: 14px;
+  padding: 8px 8px 10px 8px;
+}
+
+.footer .social-links .social .medium {
+  width: 16px;
+  height: 12px;
+  padding: 10px 8px 10px 8px;
+}
+
+.footer .social-links .social-last .email {
+  width: 16px;
+  height: 12px;
+  padding: 10px 8px 10px 8px;
+}
+
+.footer .footer-copyright {
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 14px;
+  color: #B1B1B1;
+  line-height: 36px;
+  margin: 20px auto 0px auto;
+  width: 100%;
 }
