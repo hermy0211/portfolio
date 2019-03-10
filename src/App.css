@@ -126,7 +126,83 @@
   line-height: 36px;
 }
 
-/* Projects */
+/* Footer */
+.footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer .footer-statement {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px auto 11px auto;
+  width: 100%;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer .social-links .social {
+  background-color: #000000;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.footer .social-links .social-last {
+  background-color: #000000;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin-right: 0px;
+}
+
+.footer .social-links .social .behance {
+  width: 19px;
+  height: 12px;
+  padding: 10px 6.5px 10px 6.5px;
+}
+
+.footer .social-links .social .linkedin {
+  width: 16px;
+  height: 14px;
+  padding: 8px 8px 10px 8px;
+}
+
+.footer .social-links .social .medium {
+  width: 16px;
+  height: 12px;
+  padding: 10px 8px 10px 8px;
+}
+
+.footer .social-links .social-last .email {
+  width: 16px;
+  height: 12px;
+  padding: 10px 8px 10px 8px;
+}
+
+.footer .footer-copyright {
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 14px;
+  color: #B1B1B1;
+  line-height: 36px;
+  margin: 20px auto 0px auto;
+  width: 100%;
+}
+
+
+/* MAIN PAGE */
+
+/* Project List */
 
 .projects {
   width: 100%;
@@ -211,7 +287,7 @@
 
 .project-default {
   width: 100%;
-  margin-bottom: 53px;
+  margin-bottom: 52px;
 }
 
 .project-last {
@@ -224,12 +300,12 @@
   height: 369px;
   overflow: hidden;
   margin-bottom: 19px;
+  box-shadow: 0px 0px 20px #E8E8E8;
 }
 
 .project-image-size {
   width: 369px;
   height: 369px;
-  box-shadow: 0px 0px 20px #DADADA;
   transition: transform 0.4s;
 }
 
@@ -246,75 +322,127 @@
   transition: color 0.4s;
 }
 
-/* Footer */
-.footer {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  text-align: center;
+
+/* ARTICLES PAGE */
+
+/* Articles List */
+
+.articles {
+  width: 100%;
+  font-family: circular-std-medium, Arial, sans-serif;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.footer .footer-statement {
-  font-family: circular-std-medium, Arial, sans-serif;
+.articles .left {
+  width: 369px;
+}
+
+.articles .left .articles-intro {
+  font-family: circular-std-book;
+  margin-top: 0px;
+  margin-bottom: 58px;
   font-size: 18px;
   line-height: 28px;
-  margin: 0px auto 11px auto;
+}
+
+.articles .left .articles-intro .bold {
+  font-family: circular-std-medium, Arial, sans-serif;
+}
+
+.articles .right {
+  width: 369px;
+}
+
+/* Individual Article */
+
+.article a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article a:visited {
+  color: black;
+}
+
+.article-default,
+.article-last {
   width: 100%;
+  height: 369px;
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0px 0px 20px rgba(217, 217, 217, 0.2);
 }
 
-.footer .social-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.article-default {
+  margin-bottom: 52px;
 }
 
-.footer .social-links .social {
-  background-color: #000000;
-  border-radius: 32px;
-  width: 32px;
-  height: 32px;
-  margin-right: 8px;
+.article-last {
+  margin-bottom: 0px;
 }
 
-.footer .social-links .social-last {
-  background-color: #000000;
-  border-radius: 32px;
-  width: 32px;
-  height: 32px;
-  margin-right: 0px;
+.article-image {
+  width: 367px;
+  height: 223px;
+  overflow: hidden;
 }
 
-.footer .social-links .social .behance {
-  width: 19px;
-  height: 12px;
-  padding: 10px 6.5px 10px 6.5px;
+.article-image-size {
+  width: 367px;
+  height: 223px;
+  transition: transform 0.4s;
 }
 
-.footer .social-links .social .linkedin {
-  width: 16px;
-  height: 14px;
-  padding: 8px 8px 10px 8px;
+.article-contents {
+  padding: 19px 25px 19px 25px;
 }
 
-.footer .social-links .social .medium {
-  width: 16px;
-  height: 12px;
-  padding: 10px 8px 10px 8px;
+.article-title {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 6px;
 }
 
-.footer .social-links .social-last .email {
-  width: 16px;
-  height: 12px;
-  padding: 10px 8px 10px 8px;
-}
-
-.footer .footer-copyright {
+.article-subtitle {
   font-family: circular-std-book, Arial, sans-serif;
-  font-size: 14px;
-  color: #B1B1B1;
-  line-height: 36px;
-  margin: 20px auto 0px auto;
-  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.article-date {
+  color: #A0A0A0;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.one-line {
+  margin-top: 21px;
+}
+
+.two-line {
+  margin-top: 5px;
+}
+
+
+/* ABOUT PAGE */
+
+.about-image {
+  width: 784px;
+  height: 522px;
+  box-shadow: 0px 0px 10px rgba(224, 224, 224, 0.5);
+}
+
+.about-content {
+  margin-top: 50px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21.5px;
+}
+
+.about-title {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 20px;
 }
