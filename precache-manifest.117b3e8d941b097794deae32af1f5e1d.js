@@ -1,43 +1,43 @@
 self.__precacheManifest = [
   {
-    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
-    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+    "revision": "eddb70218f38749eaeeed7fba894fda8",
+    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
-    "revision": "5fe7fdf4941294fc8b81",
-    "url": "/static/css/main.6d11db53.chunk.css"
+    "revision": "27a3bb84e12e262d1caa",
+    "url": "/static/css/main.243b2e21.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "e374bcd9bb7d5732fa21",
-    "url": "/static/js/2.03f60166.chunk.js"
-  },
-  {
-    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
-    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
-  },
-  {
-    "revision": "2153a12d1db4eda5b954e54532175e5d",
-    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
+    "revision": "bbdf5c9e29ee66e933e5",
+    "url": "/static/js/2.2be8708e.chunk.js"
   },
   {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
+    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
+    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
+  },
+  {
+    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
+    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+  },
+  {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
-    "revision": "5fe7fdf4941294fc8b81",
-    "url": "/static/js/main.2e388c96.chunk.js"
+    "revision": "27a3bb84e12e262d1caa",
+    "url": "/static/js/main.8050c822.chunk.js"
   },
   {
-    "revision": "eddb70218f38749eaeeed7fba894fda8",
-    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
+    "revision": "2153a12d1db4eda5b954e54532175e5d",
+    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/project-tn-04.ff488ea5.png"
   },
   {
-    "revision": "1d7e9609d84cc980a06066a4276a335b",
+    "revision": "9056648d3c417edc96d83da15f691232",
     "url": "/index.html"
   }
 ];
