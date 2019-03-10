@@ -7,9 +7,34 @@ class Project extends Component {
     color: this.props.color
   }
 
+  hoverEvent = (index) => {
+    let hmwList = document.querySelectorAll(".hmw");
+    let imageList = document.querySelectorAll(".project-image-size");
+    let titleList = document.querySelectorAll(".project-title");
+    let categoryList = document.querySelectorAll(".project-category");
+
+    hmwList[index].classList.add("show");
+    imageList[index].classList.add("change-scale");
+
+    titleList[index].classList.add("change-color-"+index);
+    categoryList[index].classList.add("change-color-"+index);
+  }
+
+  cancelHover = (index) => {
+    let hmwList = document.querySelectorAll(".hmw");
+    let imageList = document.querySelectorAll(".project-image-size");
+    let titleList = document.querySelectorAll(".project-title");
+    let categoryList = document.querySelectorAll(".project-category");
+
+    hmwList[index].classList.remove("show");
+    imageList[index].classList.remove("change-scale");
+    titleList[index].classList.remove("change-color-"+index);
+    categoryList[index].classList.remove("change-color-"+index);
+  }
+
   render() {
     return (
-      <div className="project">
+      <div className="project" onMouseOver={()=>this.hoverEvent(this.props.index)} onMouseOut={()=>this.cancelHover(this.props.index)}>
         <Link to={this.props.link}>
           <div className="hmw">
             <div className="hmw-background" style={{backgroundColor: this.state.color}}>{this.props.hmw}</div>

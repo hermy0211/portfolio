@@ -78,6 +78,7 @@
 }
 
 .header .navigation div a {
+  color: #BBBBBB;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -107,7 +108,7 @@
 }
 
 .header .navigation .navigation-sub .inactive {
-  color: #BBBBBB !important;
+  color: #BBBBBB;
 }
 
 .header .navigation .navigation-sub .work, .articles {
@@ -171,8 +172,28 @@
   transition: opacity 0.4s;
 }
 
-.hmw:hover {
+.show {
   opacity: 1;
+}
+
+.change-color-0 {
+  color: #0B9C96;
+}
+
+.change-color-1 {
+  color: #E96F5E;
+}
+
+.change-color-2 {
+  color: #FBC060;
+}
+
+.change-color-3 {
+  color: #72A4EE;
+}
+
+.change-scale {
+  transform: scale(1.05);
 }
 
 .hmw .hmw-background {
@@ -199,6 +220,9 @@
 }
 
 .project-image {
+  width: 369px;
+  height: 369px;
+  overflow: hidden;
   margin-bottom: 19px;
 }
 
@@ -206,17 +230,20 @@
   width: 369px;
   height: 369px;
   box-shadow: 0px 0px 20px #DADADA;
+  transition: transform 0.4s;
 }
 
 .project-title {
   font-size: 18px;
   line-height: 28px;
+  transition: color 0.4s;
 }
 
 .project-category {
   font-family: circular-std-book, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
+  transition: color 0.4s;
 }
 
 /* Footer */

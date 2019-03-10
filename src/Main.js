@@ -47,6 +47,7 @@ class Main extends Component {
               color="rgba(11, 156, 150, 0.95)"
               title="PRISM Video Editing Redesign"
               category="Mobile Application"
+              index="0"
             />
             <Project
               image={this.state.projectThreeImage}
@@ -56,6 +57,7 @@ class Main extends Component {
               color="rgba(233, 111, 94, 0.95)"
               title="Scholé Website Renewal"
               category="PC / Mobile Web"
+              index="1"
             />
           </div>
           <div className="right">
@@ -67,6 +69,7 @@ class Main extends Component {
               color="rgba(251, 192, 96, 0.95)"
               title="PRISM Layout Redesign"
               category="PC Application"
+              index="2"
             />
             <Project
               image={this.state.projectFourImage}
@@ -76,6 +79,7 @@ class Main extends Component {
               color="rgba(114, 164, 238, 0.95)"
               title="30 Days of Framer X"
               category="Interactive Prototypes"
+              index="3"
             />
           </div>
         </section>
