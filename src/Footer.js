@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Responsive.css';
 import behance from './img/behance-logo.png'
 import linkedin from './img/linkedin-logo.png'
 import medium from './img/medium-logo.png'

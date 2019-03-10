@@ -1,0 +1,117 @@
+@media screen and (max-width: 930px) {
+  .App {
+    width: calc(100% - 80px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .header .navigation .anne,
+  .header .designer {
+    font-size: 20px;
+    width: 100%;
+    line-height: 24px;
+  }
+
+  .header .speciality {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .navigation .navigation-sub {
+    display: none;
+  }
+
+  .projects {
+    width: 100%;
+    display: block;
+  }
+
+  .projects .left .projects-intro {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .projects .left,
+  .projects .right {
+    width: 100%;
+  }
+
+  .projects .left {
+    margin-bottom: 30px;
+  }
+
+  .projects .right {
+    margin-bottom: 0px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .hmw{
+    width: calc(100% - 80px);
+    height: calc(100vw - 95px);
+  }
+
+  .hmw .hmw-background {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: calc(100vw - 95px);
+    overflow: hidden;
+    margin-bottom: 19px;
+    box-shadow: 0px 0px 20px #E8E8E8;
+  }
+
+  .project-image-size {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s;
+  }
+
+  .project-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .project-category {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .project-default,
+  .project-last {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .footer .footer-statement {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px auto 11px auto;
+  }
+
+  .footer .footer-copyright {
+    font-size: 12px;
+    line-height: 36px;
+    margin: 10px auto 0px auto;
+  }
+}
+
+@media screen and (min-width: 931px) {
+  .navigation button,
+  .mobile {
+    display: none;
+  }
+}

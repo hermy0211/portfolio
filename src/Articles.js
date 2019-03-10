@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
+import './Responsive.css';
 import Article from './Article.js';
 import articleone from './img/article-tn-01.png';
 import articletwo from './img/article-tn-02.png';

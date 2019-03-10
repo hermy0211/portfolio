@@ -91,6 +91,55 @@
   color: inherit;
 }
 
+.header .overlay {
+  visibility: hidden;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header .overlay .submenus {
+  height: 180px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .overlay .submenus .work-mobile,
+.header .overlay .articles-mobile,
+.header .overlay .about-mobile {
+  width: 100%;
+  font-size: 24px;
+}
+
+.header .overlay .submenus .active {
+  color: black;
+}
+
+.header .overlay .submenus .inactive {
+  color: #BBBBBB;
+}
+
+.show {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.hide {
+  visibility: hidden !important;
+}
+
 .header .navigation-sub {
   width: 276px;
   font-size: 22px;
@@ -248,7 +297,7 @@
   transition: opacity 0.4s;
 }
 
-.show {
+.show-hmw {
   opacity: 1;
 }
 

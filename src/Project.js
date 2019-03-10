@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
+import './Responsive.css';
 
 class Project extends Component {
   state={
@@ -13,7 +14,7 @@ class Project extends Component {
     let titleList = document.querySelectorAll(".project-title");
     let categoryList = document.querySelectorAll(".project-category");
 
-    hmwList[index].classList.add("show");
+    hmwList[index].classList.add("show-hmw");
     imageList[index].classList.add("change-scale");
 
     titleList[index].classList.add("change-color-"+index);
@@ -26,7 +27,7 @@ class Project extends Component {
     let titleList = document.querySelectorAll(".project-title");
     let categoryList = document.querySelectorAll(".project-category");
 
-    hmwList[index].classList.remove("show");
+    hmwList[index].classList.remove("show-hmw");
     imageList[index].classList.remove("change-scale");
     titleList[index].classList.remove("change-color-"+index);
     categoryList[index].classList.remove("change-color-"+index);

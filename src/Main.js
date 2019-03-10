@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
+import './Responsive.css';
+import './Hamburgers.css';
 import Project from './Project.js';
 import projectone from './img/project-tn-01.png';
 import projecttwo from './img/project-tn-02.png';
@@ -12,7 +14,24 @@ class Main extends Component {
     projectOneImage: projectone,
     projectTwoImage: projecttwo,
     projectThreeImage: projectthree,
-    projectFourImage: projectfour
+    projectFourImage: projectfour,
+    hamburgerState: "off"
+  }
+
+  toggleMenu = () => {
+    let hamburger = document.querySelector(".hamburger");
+    let overlay = document.querySelector(".overlay");
+    if (this.state.hamburgerState == "off") {
+      hamburger.classList.add("is-active");
+      overlay.classList.remove("hide");
+      overlay.classList.add("show");
+      this.setState({hamburgerState: "on"})
+    } else {
+      hamburger.classList.remove("is-active");
+      overlay.classList.remove("show");
+      overlay.classList.add("hide");
+      this.setState({hamburgerState: "off"})
+    }
   }
 
   render() {
@@ -21,6 +40,18 @@ class Main extends Component {
         <section className="header">
           <div className="navigation">
             <div className="anne active"><Link to="/">Anne Lee</Link></div>
+            <button className="hamburger hamburger--spin mobile" type="button" onClick={this.toggleMenu}>
+              <span className="hamburger-box">
+                <span className="hamburger-inner"></span>
+              </span>
+            </button>
+            <div className="overlay mobile">
+              <div className="submenus">
+                <div className="work-mobile active"><Link to="/">Work</Link></div>
+                <div className="articles-mobile inactive"><Link to="/articles">Articles</Link></div>
+                <div className="about-mobile inactive"><Link to="/about">About</Link></div>
+              </div>
+            </div>
             <div className="navigation-sub">
               <div className="work active"><Link to="/">Work</Link></div>
               <div className="articles inactive"><Link to="/articles">Articles</Link></div>

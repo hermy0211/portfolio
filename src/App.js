@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Route} from 'react-router-dom';
 import './App.css';
+import './Responsive.css';
 import Main from './Main.js';
 import Articles from './Articles.js';
 import About from './About.js';
