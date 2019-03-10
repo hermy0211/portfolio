@@ -20,9 +20,9 @@ class App extends Component {
       <div className="App">
         <section className="header">
           <div className="navigation">
-            <div className="anne"><a href="annelee.co">Anne Lee</a></div>
+            <div className="anne"><a href="https://annelee.co/">Anne Lee</a></div>
             <div className="navigation-sub">
-              <div className="work"><a href="annelee.co">Work</a></div>
+              <div className="work"><a href="https://annelee.co/">Work</a></div>
               <div className="articles"><a href="www.medium.com">Articles</a></div>
               <div className="about"><a href="www.medium.com">About</a></div>
             </div>
