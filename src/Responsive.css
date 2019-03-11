@@ -1,5 +1,5 @@
 @media screen and (max-width: 930px) {
-  .App {
+  .body {
     width: calc(100% - 80px);
     margin-left: auto;
     margin-right: auto;

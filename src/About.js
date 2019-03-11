@@ -27,7 +27,7 @@ class About extends Component {
 
   render() {
     return (
-      <div>
+      <div className="body">
         <section className="header">
           <div className="navigation">
             <div className="anne active"><Link to="/">Anne Lee</Link></div>

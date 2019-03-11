@@ -3,6 +3,7 @@ import {Route} from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
 import Main from './Main.js';
+import PrismVideo from './projects/PrismVideo.js';
 import Articles from './Articles.js';
 import About from './About.js';
 import Footer from './Footer.js';
@@ -14,6 +15,10 @@ class App extends Component {
         <Route
           exact path="/"
           component={Main}
+        />
+        <Route
+          exact path="/prismvideo"
+          component={PrismVideo}
         />
         <Route
           path="/articles"

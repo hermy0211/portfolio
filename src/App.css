@@ -55,9 +55,11 @@
     font-style: italic;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
 /* Global Styles */
 
-.App {
+.body {
   width: 784px;
   margin-left: auto;
   margin-right: auto;
@@ -174,6 +176,106 @@
   color: #02CF5D;
   line-height: 36px;
 }
+
+
+/* Project Header Styles */
+
+.header-project {
+  width: 784px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 115px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  z-index: 10;
+}
+
+.header-project .navigation {
+  width: 100%;
+  display: flex;
+}
+
+.header-project .navigation div a {
+  text-decoration: none;
+  transition: color 0.2s;
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+
+.header-project .navigation div a:hover {
+  color: white !important;
+}
+
+.header-project .navigation div a:visited {
+  color: inherit;
+}
+
+.header-project .overlay {
+  visibility: hidden;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-project .overlay .submenus {
+  height: 180px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-project .overlay .submenus .work-mobile,
+.header-project .overlay .articles-mobile,
+.header-project .overlay .about-mobile {
+  width: 100%;
+  font-size: 24px;
+}
+
+.header-project .overlay .submenus .active {
+  color: white;
+}
+
+.header-project .overlay .submenus .inactive {
+  color: #BBBBBB;
+}
+
+.show {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.hide {
+  visibility: hidden !important;
+}
+
+.header-project .navigation-sub {
+  width: 276px;
+  font-size: 22px;
+  display: flex;
+}
+
+.header-project .navigation .anne {
+  font-size: 26px;
+  width: calc(100% - 276px);
+  line-height: 36px;
+  color: white;
+}
+
+.header-project .navigation .navigation-sub .work,
+.header-project .navigation .navigation-sub .articles {
+  padding-right: 40px;
+}
+
 
 /* Footer */
 .footer {
@@ -494,4 +596,303 @@
 .about-title {
   font-family: circular-std-bold, Arial, sans-serif;
   font-size: 20px;
+}
+
+/* PROJECT PAGE - PRISM VIDEO */
+
+.prismvideo .cover {
+  width: 100%;
+  height: 540px;
+  background: -webkit-linear-gradient(left, rgb(28, 28, 49) 0%, rgb(79, 66, 73) 80%, rgb(91, 83, 77) 100%);
+  background: -o-linear-gradient(left, rgb(28, 28, 49) 0%, rgb(79, 66, 73) 80%, rgb(91, 83, 77) 100%);
+  background: -ms-linear-gradient(left, rgb(28, 28, 49) 0%, rgb(79, 66, 73) 80%, rgb(91, 83, 77) 100%);
+  background: -moz-linear-gradient(left, rgb(28, 28, 49) 0%, rgb(79, 66, 73) 80%, rgb(91, 83, 77) 100%);
+  background: linear-gradient(to right, rgb(28, 28, 49) 0%, rgb(79, 66, 73) 80%, rgb(91, 83, 77) 100%);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.prismvideo .cover .cover-image {
+  height: 1022px;
+  position: absolute;
+  top: -360px;
+  right: -310px;
+}
+
+.prismvideo .cover .logo-image {
+  height: 19px;
+  margin-top: 45px;
+  margin-left: 2px;
+}
+
+.prismvideo .cover .project-info {
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -106px;
+  z-index: 2;
+}
+
+.prismvideo .cover .project-title {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+  margin-top: 12px;
+}
+
+.prismvideo .cover .project-domain {
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 36px;
+  padding-top: 2px;
+}
+
+.prismvideo .cover .project-details-top,
+.prismvideo .cover .project-details {
+  font-size: 12px;
+  color: #6E6C79;
+  line-height: 22px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prismvideo .cover .project-details-top {
+  margin-top: 40px;
+}
+
+.prismvideo .cover .project-details-title {
+  font-family: circular-std-medium, Arial, sans-serif;
+}
+
+.prismvideo .cover .project-details-text {
+  font-family: circular-std-book, Arial, sans-serif;
+  position: absolute;
+  margin-left: 45px;
+}
+
+.prismvideo .summary {
+  width: 100%;
+  background-color: #353343;
+}
+
+.content-title {
+  font-family: circular-std-bold, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  padding-top: 80px;
+}
+
+.content {
+  font-family: circular-std-book, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding-top: 40px;
+  line-height: 24px;
+}
+
+.middle {
+  padding-bottom: 40px;
+}
+
+.end {
+  padding-bottom: 80px;
+}
+
+.prismvideo .background {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.target {
+  width: 100%;
+}
+
+.image {
+  width: 784px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prismvideo .challenge {
+  width: 100%;
+  background: -webkit-linear-gradient(331deg, rgb(28, 28, 55) 0%, rgb(49, 43, 62) 100%);
+  background: -o-linear-gradient(331deg, rgb(28, 28, 55) 0%, rgb(49, 43, 62) 100%);
+  background: -ms-linear-gradient(331deg, rgb(28, 28, 55) 0%, rgb(49, 43, 62) 100%);
+  background: -moz-linear-gradient(331deg, rgb(28, 28, 55) 0%, rgb(49, 43, 62) 100%);
+  background: linear-gradient(119deg, rgb(28, 28, 55) 0%, rgb(49, 43, 62) 100%);
+}
+
+.white {
+  color: white;
+}
+
+.prismvideo .redesign {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: -webkit-linear-gradient(top, rgb(26, 26, 52) 0%, rgb(73, 60, 69) 100%);
+  background: -o-linear-gradient(top, rgb(26, 26, 52) 0%, rgb(73, 60, 69) 100%);
+  background: -ms-linear-gradient(top, rgb(26, 26, 52) 0%, rgb(73, 60, 69) 100%);
+  background: -moz-linear-gradient(top, rgb(26, 26, 52) 0%, rgb(73, 60, 69) 100%);
+  background: linear-gradient(to bottom, rgb(26, 26, 52) 0%, rgb(73, 60, 69) 100%);
+}
+
+.prismvideo .redesign .redesign-background,
+.prismvideo .redesign .redesign-background-last {
+  width: 944px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.prismvideo .redesign .redesign-background {
+  margin-bottom: 80px;
+}
+
+.prismvideo .redesign .redesign-background .content-title,
+.prismvideo .redesign .redesign-background-last .content-title {
+  font-family: circular-std-bold, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  padding-top: 80px;
+}
+
+.prismvideo .redesign .redesign-background .quote,
+.prismvideo .redesign .redesign-background-last .quote {
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: 'Zilla Slab', Times, serif;
+  color: #7A3F96;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.quote-image {
+  width: 18px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.prismvideo .redesign .redesign-background .content,
+.prismvideo .redesign .redesign-background-last .content {
+  font-family: circular-std-book, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding-top: 20px;
+  line-height: 24px;
+}
+
+.thanks {
+    width: 100%;
+    background-color: black;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.thanks-text {
+  font-family: circular-std-black, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+
+.prismvideo .thanks .link {
+  font-family: circular-std-book, Arial, sans-serif;
+  width: 784px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+}
+
+.prismvideo .thanks .link a {
+  text-decoration: none;
+  color: #92788B;
+}
+
+.prismvideo .thanks .download{
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.prismvideo .thanks .download-button {
+  width: 210px;
+  height: 38px;
+  color: white;
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 38px;
+  transition: all 0.4s;
+}
+
+.prismvideo .thanks .download-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.bottom-navigation {
+  margin-top: 60px;
+  width: 691px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+
+.link:hover {
+  color: black;
+}
+
+.link-active {
+  color: black;
+  text-decoration: none;
+}
+
+.link-inactive {
+  color: #D1D1D1;
+  text-decoration: none;
 }
