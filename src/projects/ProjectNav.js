@@ -11,6 +11,22 @@ class ProjectNav extends Component {
     menuColor: this.props.menuColor
   }
 
+  toggleMenu = () => {
+    let hamburger = document.querySelector(".hamburger");
+    let overlay = document.querySelector(".overlay");
+    if (this.state.hamburgerState == "off") {
+      hamburger.classList.add("is-active");
+      overlay.classList.remove("hide");
+      overlay.classList.add("show");
+      this.setState({hamburgerState: "on"})
+    } else {
+      hamburger.classList.remove("is-active");
+      overlay.classList.remove("show");
+      overlay.classList.add("hide");
+      this.setState({hamburgerState: "off"})
+    }
+  }
+
   render() {
     return (
       <div className="header-project">
@@ -23,9 +39,9 @@ class ProjectNav extends Component {
           </button>
           <div className="overlay mobile">
             <div className="submenus">
-              <div className="work-mobile inactive"><Link to="/">Work</Link></div>
-              <div className="articles-mobile inactive"><Link to="/articles">Articles</Link></div>
-              <div className="about-mobile inactive"><Link to="/about">About</Link></div>
+              <div className="work-mobile"><Link to="/">Work</Link></div>
+              <div className="articles-mobile"><Link to="/articles">Articles</Link></div>
+              <div className="about-mobile"><Link to="/about">About</Link></div>
             </div>
           </div>
           <div className="navigation-sub">
