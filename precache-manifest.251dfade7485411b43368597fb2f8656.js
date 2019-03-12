@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
-    "revision": "2153a12d1db4eda5b954e54532175e5d",
-    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
-  },
-  {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
@@ -46,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "cc06409e5a820f455b3b4883fbf9b72f",
     "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
+  },
+  {
+    "revision": "2153a12d1db4eda5b954e54532175e5d",
+    "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
     "revision": "371aab12f2481d3b9cb2bf9ffc145a02",
