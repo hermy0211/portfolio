@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img06.bf312acb.png"
   },
   {
-    "revision": "31e8ff56e1ad6b2d7351",
-    "url": "/static/css/main.27b896d8.chunk.css"
+    "revision": "26c02e09f9fe27a4da68",
+    "url": "/static/css/main.2f81f6bd.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "933912bb0c708ebf86a7",
-    "url": "/static/js/2.c6c6f051.chunk.js"
-  },
-  {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
+    "revision": "bffcb5300ebd31e4a867",
+    "url": "/static/js/2.81320c88.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
+  },
+  {
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
     "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+  },
+  {
+    "revision": "8d5dbe8149820b1202cbaf34b7204598",
+    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
     "revision": "eddb70218f38749eaeeed7fba894fda8",
@@ -42,10 +46,6 @@ self.__precacheManifest = [
   {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
     "url": "/static/media/CircularStd-Book.c47d7e58.woff"
-  },
-  {
-    "revision": "8d5dbe8149820b1202cbaf34b7204598",
-    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
     "revision": "371aab12f2481d3b9cb2bf9ffc145a02",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img05.5af6004a.png"
   },
   {
-    "revision": "31e8ff56e1ad6b2d7351",
-    "url": "/static/js/main.640fcd8b.chunk.js"
+    "revision": "26c02e09f9fe27a4da68",
+    "url": "/static/js/main.d61de613.chunk.js"
   },
   {
     "revision": "2702f49fd60971f05329686fd5c4b0d2",
@@ -120,6 +120,10 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img07.18c2cab5.png"
   },
   {
+    "revision": "ccf660a42291ce9d62a59b2c4c0906d2",
+    "url": "/static/media/prismlayout-img08.ccf660a4.png"
+  },
+  {
     "revision": "44dbb899cad59d53933d94c8ec86f77e",
     "url": "/static/media/article-tn-01.44dbb899.png"
   },
@@ -148,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.ad126fc3.jpg"
   },
   {
-    "revision": "bd6d402a35afc0be3f263d02c53891da",
+    "revision": "7d9752bf8e4b4489a920bedb7d304108",
     "url": "/index.html"
   }
 ];
