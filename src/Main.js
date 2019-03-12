@@ -21,7 +21,7 @@ class Main extends Component {
   toggleMenu = () => {
     let hamburger = document.querySelector(".hamburger");
     let overlay = document.querySelector(".overlay");
-    if (this.state.hamburgerState == "off") {
+    if (this.state.hamburgerState === "off") {
       hamburger.classList.add("is-active");
       overlay.classList.remove("hide");
       overlay.classList.add("show");

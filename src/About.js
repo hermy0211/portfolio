@@ -12,7 +12,7 @@ class About extends Component {
   toggleMenu = () => {
     let hamburger = document.querySelector(".hamburger");
     let overlay = document.querySelector(".overlay");
-    if (this.state.hamburgerState == "off") {
+    if (this.state.hamburgerState === "off") {
       hamburger.classList.add("is-active");
       overlay.classList.remove("hide");
       overlay.classList.add("show");
@@ -57,7 +57,7 @@ class About extends Component {
           </div>
         </section>
         <section className="about">
-          <img src={profile} alt="Profile Image" className="about-image"/>
+          <img src={profile} alt="Profile" className="about-image"/>
           <div className="about-content">
           Hi, my name is Anne.<br/><br/>
           I am a hybrid UX / UI designer currently working as a Product Designer at Naver, the #1 tech company in South Korea. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>

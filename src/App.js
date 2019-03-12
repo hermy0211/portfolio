@@ -4,6 +4,7 @@ import './App.css';
 import './Responsive.css';
 import Main from './Main.js';
 import PrismVideo from './projects/PrismVideo.js';
+import PrismLayout from './projects/PrismLayout.js';
 import Articles from './Articles.js';
 import About from './About.js';
 import Footer from './Footer.js';
@@ -17,8 +18,12 @@ class App extends Component {
           component={Main}
         />
         <Route
-          exact path="/prismvideo"
+          path="/prismvideo"
           component={PrismVideo}
+        />
+        <Route
+          path="/prismlayout"
+          component={PrismLayout}
         />
         <Route
           path="/articles"
