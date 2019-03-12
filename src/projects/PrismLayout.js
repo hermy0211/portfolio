@@ -11,6 +11,7 @@ import img04 from '../img/prismlayout-img04.png';
 import img05 from '../img/prismlayout-img05.png';
 import img06 from '../img/prismlayout-img06.png';
 import img07 from '../img/prismlayout-img07.png';
+import img08 from '../img/prismlayout-img08.png';
 
 class PrismLayout extends Component {
   toggleConcepts = (index) => {
@@ -107,18 +108,24 @@ class PrismLayout extends Component {
         <div className="effects">
           <div className="content-title">Adding Mobile Camera Effects to the PC App</div>
           <div className="content middle">At the start of this project, the only effects the desktop application offered were color filters. Yet there were plans to expand the library to include the effects already provided within the mobile app, such as AR masks and text.</div>
-          <div className="image-wrap"><img src={img02} alt="Mobile Camera Effects" className="image end"/></div>
+          <div className="image-wrap"><img src={img02} alt="Mobile Camera Effects" className="image pc end"/></div>
+          <img src={img08} alt="Mobile Camera Effects - Mobile" className="image mobile end"/>
         </div>
         <div className="limitations">
           <div className="content-title">The Need for a More Scalable Layout</div>
           <div className="content middle">Currently, the color filters were located on the bottom of the app. In order to add more effects to the PC app, a few things questions needed answering.</div>
           <iframe className="video" src="https://player.vimeo.com/video/320779251" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Original Flow"></iframe>
-          <div className="content end"><span className="bullet">• Where would we place the other effects?</span><br/>
+          <div className="content pc end"><span className="bullet">• Where would we place the other effects?</span><br/>
             First of all, where would we place the other effect categories? How would we present the effects so it would be easy to see which ones could be applied at a glance?<br/><br/>
             <span className="bullet">• Where would we place the effect controls?</span><br/>
             Some effects, like text, came with customization controls such as font, size, and text animations. Where would we place these features?
           </div>
-          <img src={img03} alt="Layout Limitations" className="image middle"/>
+          <div className="content mobile middle"><span className="bullet">• Where would we place the other effects?</span><br/>
+            First of all, where would we place the other effect categories? How would we present the effects so it would be easy to see which ones could be applied at a glance?<br/><br/>
+            <span className="bullet">• Where would we place the effect controls?</span><br/>
+            Some effects, like text, came with customization controls such as font, size, and text animations. Where would we place these features?
+          </div>
+          <img src={img03} alt="Layout Limitations" className="image"/>
           <div className="content end">
             <span className="bullet">• Could we improve the hierarchy?</span><br/>
             Although the scenes and filters were located in the same panel, they were associated with different parts of the screen. Scenes had to do with the whole screen, while filters were applied to the sub-items of the screen. Was there a way to make this relationship easier to understand?

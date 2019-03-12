@@ -1,0 +1,184 @@
+.prismvideo .cover {
+  height: 340px;
+}
+
+.prismvideo .cover .cover-image {
+  height: 600px;
+  position: absolute;
+  top: -150px;
+  right: -240px;
+  opacity: 0.4;
+}
+
+.prismvideo .cover .logo-image {
+  margin-top: 60px;
+}
+
+.prismvideo .cover .project-info {
+  width: 100%;
+}
+
+.prismvideo .cover .project-title {
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.prismvideo .cover .project-domain {
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 12px;
+}
+
+.prismvideo .cover .project-details-top,
+.prismvideo .cover .project-details {
+  font-size: 11px;
+  color: #918EA0;
+  line-height: 20px;
+}
+
+.prismvideo .cover .project-details-top {
+  margin-top: 50px;
+}
+
+.prismvideo .cover .project-details-text {
+  margin-left: 35px;
+}
+
+.content-title {
+  width: calc(100% - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 60px;
+}
+
+.content {
+  width: calc(100% - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 30px;
+}
+
+.middle {
+  padding-bottom: 30px;
+}
+
+.end {
+  padding-bottom: 60px;
+}
+
+.video {
+  width: calc(100% - 80px);
+  height: calc((100vw - 80px) * 590 / 784);
+}
+
+.image {
+  width: calc(100% - 80px);
+}
+
+.prismvideo .redesign {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.prismvideo .redesign .redesign-background,
+.prismvideo .redesign .redesign-background-last {
+  width: calc(100% - 40px);
+}
+
+.prismvideo .redesign .redesign-background {
+  margin-bottom: 30px;
+}
+
+.prismvideo .redesign .redesign-background .content-title,
+.prismvideo .redesign .redesign-background-last .content-title {
+  width: calc(100% - 40px);
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 30px;
+}
+
+.prismvideo .redesign .redesign-background .quote,
+.prismvideo .redesign .redesign-background-last .quote {
+  width: calc(100% - 40px);
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.quote-image {
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+}
+
+.prismvideo .redesign .redesign-background .content,
+.prismvideo .redesign .redesign-background-last .content {
+  width: calc(100% - 40px);
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.prismvideo .redesign .image {
+  width: calc(100% - 40px);
+  padding-bottom: 20px;
+}
+
+.prismvideo .redesign .middle {
+  padding-bottom: 20px;
+}
+
+.prismvideo .redesign .end {
+  padding-bottom: 30px;
+}
+
+.thanks {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.thanks-text {
+  width: calc(100% - 40px);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.prismvideo .thanks .link {
+  width: calc(100% - 40px);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.prismvideo .thanks .download{
+  width: calc(100% - 40px);
+}
+
+.prismvideo .thanks .download-button {
+  width: 180px;
+  font-size: 14px;
+}
+
+.prismvideo .thanks .download-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.bottom-navigation {
+  margin-top: 60px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-align: center;
+  width: 100%;
+  padding: 6px 0px 6px 0px;
+}

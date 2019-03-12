@@ -217,38 +217,38 @@
     opacity: 0.4;
   }
 
-  .prismvideo .cover .logo-image {
+  .logo-image {
     margin-top: 60px;
   }
 
-  .prismvideo .cover .project-info {
+  .project-info {
     width: 100%;
   }
 
-  .prismvideo .cover .project-title {
+  .project-info .project-title {
     font-size: 22px;
     line-height: 26px;
     margin-top: 20px;
   }
 
-  .prismvideo .cover .project-domain {
+  .project-domain {
     font-size: 16px;
     line-height: 18px;
     padding-top: 12px;
   }
 
-  .prismvideo .cover .project-details-top,
-  .prismvideo .cover .project-details {
+  .project-details-top,
+  .project-details {
     font-size: 11px;
     color: #918EA0;
     line-height: 20px;
   }
 
-  .prismvideo .cover .project-details-top {
+  .project-details-top {
     margin-top: 50px;
   }
 
-  .prismvideo .cover .project-details-text {
+  .project-details-text {
     margin-left: 35px;
   }
 
@@ -356,22 +356,22 @@
     line-height: 24px;
   }
 
-  .prismvideo .thanks .link {
+  .thanks .link {
     width: calc(100% - 40px);
     font-size: 18px;
     line-height: 22px;
   }
 
-  .prismvideo .thanks .download{
+  .thanks .download{
     width: calc(100% - 40px);
   }
 
-  .prismvideo .thanks .download-button {
+  .thanks .download-button {
     width: 180px;
     font-size: 14px;
   }
 
-  .prismvideo .thanks .download-button:hover {
+  .thanks .download-button:hover {
     color: black;
     background-color: white;
     border: 1px solid white;
@@ -388,6 +388,105 @@
     text-align: center;
     width: 100%;
     padding: 6px 0px 6px 0px;
+  }
+
+  /* Optimize PRISM Layout Page */
+
+  .prismlayout .cover {
+    height: 340px;
+  }
+
+  .prismlayout .cover .cover-image {
+    width: 400px;
+    position: absolute;
+    top: 170px;
+    right: -170px;
+    opacity: 0.3;
+  }
+
+  .prismlayout .limitations {
+    background-color: #F8F8F8;
+    width: 100%;
+  }
+
+  .prismlayout .video {
+    width: calc(100% - 80px);
+    height: calc((100vw - 80px) * 484 / 784);
+  }
+
+  .prismlayout .concepts {
+    padding-bottom: 60px;
+  }
+
+  .prismlayout .concepts .content-title {
+    width: calc(100% - 80px);
+    justify-content: space-between;
+    font-size: 16px;
+  }
+
+  .prismlayout .proscons {
+    margin: 30px auto 0 auto;
+    width: calc(100% - 80px);
+    flex-wrap: wrap;
+  }
+
+  .prismlayout .proscons-pros {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .prismlayout .proscons-cons {
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .prismlayout .proscons-title {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 12px;
+  }
+
+  .prismlayout .proscons-content {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .prismlayout .solution .image {
+    width: calc(100% - 80px);
+  }
+
+  .prismlayout .link a {
+    color: #9A9A9A;
+  }
+
+  .prismlayout .compare .compare-title {
+    width: calc(100% - 80px);
+    justify-content: space-evenly;
+    padding-top: 60px;
+  }
+
+  .prismlayout .compare .compare-title .solution-title {
+    font-size: 20px;
+  }
+
+  .prismlayout .tobe {
+    width: calc(100% - 40px);
+    height: calc((100vw - 40px) * 597 / 1189);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px 60px 0px;
+  }
+
+  .prismlayout .asis {
+    width: calc(100% - 40px);
+    height: calc((100vw - 40px) * 597 / 1027);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px 60px 0px;
+  }
+
+  .pc {
+    display: none;
   }
 }
 
