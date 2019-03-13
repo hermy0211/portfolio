@@ -557,6 +557,54 @@
     line-height: 20px;
   }
 
+  /* Optimize Schole Page */
+
+  .schole .cover {
+    height: 340px;
+  }
+
+  .schole .cover .cover-image {
+    height: 300px;
+    opacity: 0.4;
+    top: 80px;
+    left: 25%;
+  }
+
+  .schole .pc-designs {
+    width: 100%;
+    height: auto;
+  }
+
+  .schole .pc-designs .main {
+    width: calc(100% - 60px);
+    left: 0;
+    margin: 0 auto 0 auto;
+    z-index: 1;
+  }
+
+  .schole .pc-designs .project {
+    width: calc(100% + 80px);
+    left: 50%;
+    margin-left: calc((100vw + 80px) / -2);
+    z-index: 1;
+    margin-top: 30px;
+  }
+
+  .schole .mobile-designs .image {
+    width: calc(100% + 100px);
+    left: 50%;
+    margin-left: calc((100vw + 100px) / -2);
+  }
+
+  .schole .thanks .link a {
+    text-decoration: none;
+    color: #F82B25;
+  }
+
+  .schole .thanks .download-button {
+    width: 238px;
+  }
+
   .pc {
     display: none;
   }
