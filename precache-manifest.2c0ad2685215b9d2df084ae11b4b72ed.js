@@ -1,51 +1,51 @@
 self.__precacheManifest = [
   {
-    "revision": "bf312acb71b75a6c04b9b030e7a9d8b4",
-    "url": "/static/media/prismvideo-img06.bf312acb.png"
+    "revision": "781535f8799c9c2a939a73676cf24e98",
+    "url": "/static/media/prismlayout-img01.781535f8.png"
   },
   {
-    "revision": "26c02e09f9fe27a4da68",
-    "url": "/static/css/main.2f81f6bd.chunk.css"
+    "revision": "43a60c55ae4724856d7a",
+    "url": "/static/css/main.42d0e867.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "bffcb5300ebd31e4a867",
-    "url": "/static/js/2.81320c88.chunk.js"
+    "revision": "71c8bf62f3d4ffb4e127",
+    "url": "/static/js/2.b5d35d1b.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
-  },
-  {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
-    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
-    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
+    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
+    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+  },
+  {
     "revision": "eddb70218f38749eaeeed7fba894fda8",
     "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
-    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
-    "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
-  },
-  {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
     "url": "/static/media/CircularStd-Book.c47d7e58.woff"
+  },
+  {
+    "revision": "cc06409e5a820f455b3b4883fbf9b72f",
+    "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
   },
   {
     "revision": "371aab12f2481d3b9cb2bf9ffc145a02",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img05.5af6004a.png"
   },
   {
-    "revision": "26c02e09f9fe27a4da68",
-    "url": "/static/js/main.d61de613.chunk.js"
+    "revision": "bf312acb71b75a6c04b9b030e7a9d8b4",
+    "url": "/static/media/prismvideo-img06.bf312acb.png"
   },
   {
     "revision": "2702f49fd60971f05329686fd5c4b0d2",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img09.911a1f43.png"
   },
   {
-    "revision": "781535f8799c9c2a939a73676cf24e98",
-    "url": "/static/media/prismlayout-img01.781535f8.png"
+    "revision": "43a60c55ae4724856d7a",
+    "url": "/static/js/main.7f251f47.chunk.js"
   },
   {
     "revision": "598ca0caf5a2d510721d42410d95c8d6",
@@ -124,6 +124,34 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img08.ccf660a4.png"
   },
   {
+    "revision": "ef66432487f29d6a88d13cf817f7cd21",
+    "url": "/static/media/framer-img01.ef664324.png"
+  },
+  {
+    "revision": "8fa730b6579ae81727bb3ba4a6c867b0",
+    "url": "/static/media/framer-img02.8fa730b6.png"
+  },
+  {
+    "revision": "7f58c09f980bdd8beca49df35bc0dd48",
+    "url": "/static/media/framer-img03.7f58c09f.gif"
+  },
+  {
+    "revision": "fc230a83423830f2529915d1b801cea3",
+    "url": "/static/media/framer-img04.fc230a83.gif"
+  },
+  {
+    "revision": "f74cbf8c8125972347eda84b07237641",
+    "url": "/static/media/framer-img05.f74cbf8c.gif"
+  },
+  {
+    "revision": "2493f98f2a9e05e24b55a60f136578c9",
+    "url": "/static/media/framer-img06.2493f98f.gif"
+  },
+  {
+    "revision": "ba51f3af2f2503869c5489c5cdd85a94",
+    "url": "/static/media/framer-img07.ba51f3af.gif"
+  },
+  {
     "revision": "44dbb899cad59d53933d94c8ec86f77e",
     "url": "/static/media/article-tn-01.44dbb899.png"
   },
@@ -152,7 +180,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.ad126fc3.jpg"
   },
   {
-    "revision": "7d9752bf8e4b4489a920bedb7d304108",
+    "revision": "30b33f250c8f677c439a30a2ca0c9de2",
     "url": "/index.html"
   }
 ];
