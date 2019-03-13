@@ -5,6 +5,7 @@ import '../App.css';
 import '../Responsive.css';
 import '../Hamburgers.css';
 import img01 from '../img/prismvideo-img01.png';
+import img00 from '../img/prismvideo-img02.png';
 import img03 from '../img/prismvideo-img03.png';
 import img04 from '../img/prismvideo-img04.png';
 import img05 from '../img/prismvideo-img05.png';
@@ -14,6 +15,10 @@ import img08 from '../img/prismvideo-img08.png';
 import img09 from '../img/prismvideo-img09.png';
 
 class PrismVideo extends Component {
+  state = {
+    logoImage: img00
+  }
+
   render() {
     return (
       <section className="project-content prismvideo">
@@ -21,6 +26,7 @@ class PrismVideo extends Component {
           <ProjectNav
             logoColor="#E0E0E0"
             menuColor="#E0E0E0"
+            logo={this.state.logoImage}
             title={["PRISM Live Studio", <br/>, "Video Editing Redesign"]}
             domain="Mobile Application"
             roles="User Research, UX Design, Project Management"
@@ -36,7 +42,7 @@ class PrismVideo extends Component {
         <div className="background">
           <div className="content-title">PRISM Live Studio Mobile,<br/>A Video Creator App with Fun Effects</div>
           <div className="content middle">PRISM Live Studio is a video creator app with which you can create live streams or edit videos. In the video editing mode, you can create unique content by applying various effects to your video such as stickers, filters, and captions.</div>
-          <iframe className="video end" src="https://player.vimeo.com/video/321151842" frameborder="0" allowFullScreen mozallowfullscreen title="Prism Mobile Demo"></iframe>
+          <iframe className="video end" src="https://player.vimeo.com/video/321151842" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Prism Mobile Demo"></iframe>
         </div>
         <div className="target">
           <div className="content-title">Expanding Target Users to Vlog Creators</div>
@@ -94,10 +100,10 @@ class PrismVideo extends Component {
           </form>
         </div>
         <div className="bottom-navigation">
-          <Link to="/prismvideo" class="link link-active">PRISM Video Editing Redesign</Link>
-          <Link to="/prismlayout" class="link link-inactive">PRISM Layout Redesign</Link>
-          <Link to="/schole" class="link link-inactive">Scholé Website Renewal</Link>
-          <Link to="/framer30" class="link link-inactive">30 Days of Framer X</Link>
+          <Link to="/prismvideo" className="link link-active">PRISM Video Editing Redesign</Link>
+          <Link to="/prismlayout" className="link link-inactive">PRISM Layout Redesign</Link>
+          <Link to="/schole" className="link link-inactive">Scholé Website Renewal</Link>
+          <Link to="/framer30" className="link link-inactive">30 Days of Framer X</Link>
         </div>
       </section>
     );

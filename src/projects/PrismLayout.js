@@ -4,6 +4,7 @@ import ProjectNav from './ProjectNav.js';
 import '../App.css';
 import '../Responsive.css';
 import '../Hamburgers.css';
+import img00 from '../img/prismvideo-img02.png';
 import img01 from '../img/prismlayout-img01.png';
 import img02 from '../img/prismlayout-img02.png';
 import img03 from '../img/prismlayout-img03.png';
@@ -14,6 +15,10 @@ import img07 from '../img/prismlayout-img07.png';
 import img08 from '../img/prismlayout-img08.png';
 
 class PrismLayout extends Component {
+  state = {
+    logoImage: img00
+  }
+  
   toggleConcepts = (index) => {
     let conceptTitles = document.querySelectorAll(".concept-title");
     let conceptA = document.querySelectorAll(".concept-a");
@@ -89,6 +94,7 @@ class PrismLayout extends Component {
           <ProjectNav
             logoColor="#E0E0E0"
             menuColor="#E0E0E0"
+            logo={this.state.logoImage}
             title={["PRISM Live Studio", <br/>, "Layout Redesign"]}
             domain="PC Application"
             roles="UX Design, Project Management"
@@ -202,8 +208,8 @@ class PrismLayout extends Component {
             <div className="solution-title active" onClick={()=>this.toggleSolutions(0)}>To-Be</div>
             <div className="solution-title inactive" onClick={()=>this.toggleSolutions(1)}>As-Is</div>
           </div>
-          <img src={img06} alt="To-Be" className="tobe display"/>
-          <img src={img07} alt="As-Is" className="asis"/>
+          <div className="image-wrap"><img src={img06} alt="To-Be" className="tobe display"/></div>
+          <div className="image-wrap"><img src={img07} alt="As-Is" className="asis"/></div>
         </div>
         <div className="thanks">
           <div className="thanks-text">Thanks for watching!</div>

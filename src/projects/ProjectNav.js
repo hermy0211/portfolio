@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import '../App.css';
 import '../Responsive.css';
 import '../Hamburgers.css';
-import img02 from '../img/prismvideo-img02.png';
 
 class ProjectNav extends Component {
   state = {
@@ -51,7 +50,7 @@ class ProjectNav extends Component {
           </div>
         </div>
         <div className="project-info">
-          <img src={img02} alt="Prism Logo" className="logo-image"/>
+          <img src={this.props.logo} alt="Prism Logo" className="logo-image"/>
           <div className="project-title">{this.props.title}</div>
           <div className="project-domain">{this.props.domain}</div>
           <div className="project-details-top">
