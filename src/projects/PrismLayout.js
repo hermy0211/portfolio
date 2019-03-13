@@ -18,7 +18,11 @@ class PrismLayout extends Component {
   state = {
     logoImage: img00
   }
-  
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   toggleConcepts = (index) => {
     let conceptTitles = document.querySelectorAll(".concept-title");
     let conceptA = document.querySelectorAll(".concept-a");

@@ -18,6 +18,10 @@ class Main extends Component {
     hamburgerState: "off"
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   toggleMenu = () => {
     let hamburger = document.querySelector(".hamburger");
     let overlay = document.querySelector(".overlay");

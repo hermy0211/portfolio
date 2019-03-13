@@ -18,6 +18,10 @@ class Framer extends Component {
     logoImage: img00
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <section className="project-content framer">
