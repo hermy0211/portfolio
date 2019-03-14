@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
-import profile from "./img/profile.jpg";
+import profile from "./img/profile.png";
 
 class About extends Component {
   state = {
