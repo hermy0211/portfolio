@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "a2dc6b48a8d98c1d8dabdcd9283dc176",
-    "url": "/static/media/prismlayout-img03.a2dc6b48.png"
+    "revision": "5eb8ddbd3419a2669c68d3371261af91",
+    "url": "/static/media/prismlayout-img04.5eb8ddbd.png"
   },
   {
-    "revision": "acafd5c36d477c37d8b7",
-    "url": "/static/css/main.18848a9f.chunk.css"
+    "revision": "4218e5db18d1a3346864",
+    "url": "/static/css/main.004ab608.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "de0b02d0feb2be74fa13",
-    "url": "/static/js/2.f828bef5.chunk.js"
+    "revision": "39c9661a143a4195ae96",
+    "url": "/static/js/2.0de94d04.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
+  },
+  {
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
@@ -44,22 +48,6 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
   },
   {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
-  },
-  {
-    "revision": "64ccc61caa1e5f92c7812e63a180ff2e",
-    "url": "/static/media/prismvideo-img01.64ccc61c.png"
-  },
-  {
-    "revision": "781535f8799c9c2a939a73676cf24e98",
-    "url": "/static/media/prismlayout-img01.781535f8.png"
-  },
-  {
-    "revision": "ef66432487f29d6a88d13cf817f7cd21",
-    "url": "/static/media/framer-img01.ef664324.png"
-  },
-  {
     "revision": "371aab12f2481d3b9cb2bf9ffc145a02",
     "url": "/static/media/project-tn-01.371aab12.png"
   },
@@ -76,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/project-tn-04.ff488ea5.png"
   },
   {
-    "revision": "844050752a153cd78db242475aa6cc05",
-    "url": "/static/media/prismvideo-img01_m.84405075.png"
+    "revision": "64ccc61caa1e5f92c7812e63a180ff2e",
+    "url": "/static/media/prismvideo-img01.64ccc61c.png"
   },
   {
     "revision": "09ced2437e78bf67a1b82420837f9803",
@@ -104,20 +92,20 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img09.911a1f43.png"
   },
   {
-    "revision": "1cb215fb376a96085d4cf7adae1c24f6",
-    "url": "/static/media/prismlayout-img01_m.1cb215fb.png"
+    "revision": "781535f8799c9c2a939a73676cf24e98",
+    "url": "/static/media/prismlayout-img01.781535f8.png"
   },
   {
     "revision": "598ca0caf5a2d510721d42410d95c8d6",
     "url": "/static/media/prismlayout-img02.598ca0ca.png"
   },
   {
-    "revision": "acafd5c36d477c37d8b7",
-    "url": "/static/js/main.8f98e0e1.chunk.js"
+    "revision": "a2dc6b48a8d98c1d8dabdcd9283dc176",
+    "url": "/static/media/prismlayout-img03.a2dc6b48.png"
   },
   {
-    "revision": "5eb8ddbd3419a2669c68d3371261af91",
-    "url": "/static/media/prismlayout-img04.5eb8ddbd.png"
+    "revision": "4218e5db18d1a3346864",
+    "url": "/static/js/main.73976175.chunk.js"
   },
   {
     "revision": "387628720416d8c9097057a30d531489",
@@ -160,8 +148,8 @@ self.__precacheManifest = [
     "url": "/static/media/schole-img06.948902c2.png"
   },
   {
-    "revision": "385eafab8fe02b9579f699a91dec83fd",
-    "url": "/static/media/framer-img01_m.385eafab.png"
+    "revision": "ef66432487f29d6a88d13cf817f7cd21",
+    "url": "/static/media/framer-img01.ef664324.png"
   },
   {
     "revision": "8fa730b6579ae81727bb3ba4a6c867b0",
@@ -216,11 +204,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.ad126fc3.jpg"
   },
   {
-    "revision": "52621cecaa04ec264af0b6717de6b264",
-    "url": "/static/media/profile_m.52621cec.png"
-  },
-  {
-    "revision": "bf1c95fd3a00a7fddfa24133763d08db",
+    "revision": "e339c424fafb7e05222372a6d69b7bd2",
     "url": "/index.html"
   }
 ];
