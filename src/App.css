@@ -988,6 +988,7 @@
 
 .prismlayout .concepts .content-title .concept-title {
   transition: color 0.2s;
+  padding: 4px 4px 4px 4px;
 }
 
 .prismlayout .concepts .content-title .concept-title:hover {
@@ -1084,6 +1085,7 @@
   font-size: 26px;
   transition: color 0.2s;
   color: #3B3B3B;
+  padding: 4px 4px 4px 4px;
 }
 
 .prismlayout .compare .compare-title .solution-title:hover {
