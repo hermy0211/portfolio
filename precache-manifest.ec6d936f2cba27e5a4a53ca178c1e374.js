@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img02.39bb86a7.png"
   },
   {
-    "revision": "cf5d29249bc9cda7f800",
+    "revision": "8670d96d37213e7d656f",
     "url": "/static/css/main.004ab608.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/static/js/2.0de94d04.chunk.js"
   },
   {
-    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
-    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
-  },
-  {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
+  },
+  {
+    "revision": "eddb70218f38749eaeeed7fba894fda8",
+    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
   },
   {
-    "revision": "eddb70218f38749eaeeed7fba894fda8",
-    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
-  },
-  {
-    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
-    "url": "/static/media/CircularStd-Book.c47d7e58.woff"
+    "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
+    "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
     "revision": "cc06409e5a820f455b3b4883fbf9b72f",
     "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
+  },
+  {
+    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
+    "url": "/static/media/CircularStd-Book.c47d7e58.woff"
   },
   {
     "revision": "45da5c630636b32307523fecb405231e",
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img01.07be831e.png"
   },
   {
-    "revision": "cf5d29249bc9cda7f800",
-    "url": "/static/js/main.394db457.chunk.js"
+    "revision": "8670d96d37213e7d656f",
+    "url": "/static/js/main.6b680db2.chunk.js"
   },
   {
     "revision": "f475ac585018fdbec0f92ff3cfb8e01f",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.656c0f4c.png"
   },
   {
-    "revision": "93de3c51f8b92f7a364713267303d530",
+    "revision": "8b01c098e1287c8cec18484f9b899bee",
     "url": "/index.html"
   }
 ];
