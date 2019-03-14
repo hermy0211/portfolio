@@ -34,7 +34,7 @@ class About extends Component {
       <div className="body">
         <section className="header">
           <div className="navigation">
-            <div className="anne active"><Link to="/">Anne Lee</Link></div>
+            <div className="anne"><Link to="/" class="active">Anne Lee</Link></div>
             <button className="hamburger hamburger--spin mobile" type="button" onClick={this.toggleMenu}>
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -42,15 +42,15 @@ class About extends Component {
             </button>
             <div className="overlay mobile">
               <div className="submenus">
-                <div className="work-mobile inactive"><Link to="/">Work</Link></div>
-                <div className="articles-mobile inactive"><Link to="/articles">Articles</Link></div>
-                <div className="about-mobile active"><Link to="/about">About</Link></div>
+                <div className="work-mobile"><Link to="/">Work</Link></div>
+                <div className="articles-mobile"><Link to="/articles">Articles</Link></div>
+                <div className="about-mobile"><Link to="/about" class="active">About</Link></div>
               </div>
             </div>
             <div className="navigation-sub">
-              <div className="work inactive"><Link to="/">Work</Link></div>
-              <div className="articles inactive"><Link to="/articles">Articles</Link></div>
-              <div className="about active"><Link to="/about">About</Link></div>
+              <div className="work"><Link to="/">Work</Link></div>
+              <div className="articles"><Link to="/articles">Articles</Link></div>
+              <div className="about"><Link to="/about" class="active">About</Link></div>
             </div>
           </div>
           <div className="designer">

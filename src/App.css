@@ -126,14 +126,6 @@
   font-size: 24px;
 }
 
-.header .overlay .submenus .active {
-  color: black !important;
-}
-
-.header .overlay .submenus .inactive {
-  color: #BBBBBB !important;
-}
-
 .show {
   visibility: visible !important;
   opacity: 1 !important;
@@ -154,12 +146,8 @@
   line-height: 36px;
 }
 
-.header .navigation .navigation-sub .active {
-  color: black;
-}
-
-.header .navigation .navigation-sub .inactive {
-  color: #BBBBBB;
+.header .navigation .active {
+  color: black !important;
 }
 
 .header .navigation .navigation-sub .work, .articles {
