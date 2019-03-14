@@ -34,7 +34,7 @@ class ProjectNav extends Component {
     return (
       <div className="header-project">
         <div className="navigation">
-          <div className="anne" style={{color: this.state.logoColor}}><Link to="/">Anne Lee</Link></div>
+          <div className="anne"><Link to="/" style={{color: this.state.logoColor}}>Anne Lee</Link></div>
           <button className="hamburger hamburger--spin mobile" type="button" onClick={this.toggleMenu}>
             <span className="hamburger-box">
               <span className="hamburger-inner"></span>
@@ -48,9 +48,9 @@ class ProjectNav extends Component {
             </div>
           </div>
           <div className="navigation-sub">
-            <div className="work" style={{color: this.state.menuColor}}><Link to="/">Work</Link></div>
-            <div className="articles" style={{color: this.state.menuColor}}><Link to="/articles">Articles</Link></div>
-            <div className="about" style={{color: this.state.menuColor}}><Link to="/about">About</Link></div>
+            <div className="work"><Link to="/" style={{color: this.state.menuColor}}>Work</Link></div>
+            <div className="articles"><Link to="/articles" style={{color: this.state.menuColor}}>Articles</Link></div>
+            <div className="about"><Link to="/about" style={{color: this.state.menuColor}}>About</Link></div>
           </div>
         </div>
         <div className="project-info">
