@@ -89,8 +89,8 @@
   color: black !important;
 }
 
-.header .navigation div a:visited {
-  color: inherit;
+.header .navigation .active {
+  color: black !important;
 }
 
 .header .overlay {
@@ -144,10 +144,6 @@
   font-size: 26px;
   width: calc(100% - 276px);
   line-height: 36px;
-}
-
-.header .navigation .active {
-  color: black !important;
 }
 
 .header .navigation .navigation-sub .work, .articles {
