@@ -1,51 +1,63 @@
 self.__precacheManifest = [
   {
-    "revision": "5eb8ddbd3419a2669c68d3371261af91",
-    "url": "/static/media/prismlayout-img04.5eb8ddbd.png"
+    "revision": "a2dc6b48a8d98c1d8dabdcd9283dc176",
+    "url": "/static/media/prismlayout-img03.a2dc6b48.png"
   },
   {
-    "revision": "9c0cef0ba9575ab1d1e6",
-    "url": "/static/css/main.004ab608.chunk.css"
+    "revision": "acafd5c36d477c37d8b7",
+    "url": "/static/css/main.18848a9f.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "576d22af1b99483a47c6",
-    "url": "/static/js/2.9139608b.chunk.js"
+    "revision": "de0b02d0feb2be74fa13",
+    "url": "/static/js/2.f828bef5.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
-  },
-  {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
-  },
-  {
-    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
-    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
   },
   {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
-    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
-    "url": "/static/media/CircularStd-Book.c47d7e58.woff"
+    "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
+    "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
   },
   {
     "revision": "eddb70218f38749eaeeed7fba894fda8",
     "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
+    "revision": "c47d7e581f2a563f8dedd4509c106fb8",
+    "url": "/static/media/CircularStd-Book.c47d7e58.woff"
+  },
+  {
     "revision": "cc06409e5a820f455b3b4883fbf9b72f",
     "url": "/static/media/CircularStd-BookItalic.cc06409e.woff"
+  },
+  {
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
+  },
+  {
+    "revision": "64ccc61caa1e5f92c7812e63a180ff2e",
+    "url": "/static/media/prismvideo-img01.64ccc61c.png"
+  },
+  {
+    "revision": "781535f8799c9c2a939a73676cf24e98",
+    "url": "/static/media/prismlayout-img01.781535f8.png"
+  },
+  {
+    "revision": "ef66432487f29d6a88d13cf817f7cd21",
+    "url": "/static/media/framer-img01.ef664324.png"
   },
   {
     "revision": "371aab12f2481d3b9cb2bf9ffc145a02",
@@ -62,10 +74,6 @@ self.__precacheManifest = [
   {
     "revision": "ff488ea55e1c2ce49a9143211f4aeaf2",
     "url": "/static/media/project-tn-04.ff488ea5.png"
-  },
-  {
-    "revision": "64ccc61caa1e5f92c7812e63a180ff2e",
-    "url": "/static/media/prismvideo-img01.64ccc61c.png"
   },
   {
     "revision": "844050752a153cd78db242475aa6cc05",
@@ -96,10 +104,6 @@ self.__precacheManifest = [
     "url": "/static/media/prismvideo-img09.911a1f43.png"
   },
   {
-    "revision": "781535f8799c9c2a939a73676cf24e98",
-    "url": "/static/media/prismlayout-img01.781535f8.png"
-  },
-  {
     "revision": "1cb215fb376a96085d4cf7adae1c24f6",
     "url": "/static/media/prismlayout-img01_m.1cb215fb.png"
   },
@@ -108,12 +112,12 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img02.598ca0ca.png"
   },
   {
-    "revision": "a2dc6b48a8d98c1d8dabdcd9283dc176",
-    "url": "/static/media/prismlayout-img03.a2dc6b48.png"
+    "revision": "acafd5c36d477c37d8b7",
+    "url": "/static/js/main.8f98e0e1.chunk.js"
   },
   {
-    "revision": "9c0cef0ba9575ab1d1e6",
-    "url": "/static/js/main.84606df8.chunk.js"
+    "revision": "5eb8ddbd3419a2669c68d3371261af91",
+    "url": "/static/media/prismlayout-img04.5eb8ddbd.png"
   },
   {
     "revision": "387628720416d8c9097057a30d531489",
@@ -154,10 +158,6 @@ self.__precacheManifest = [
   {
     "revision": "948902c215fdff807bde377db41ed434",
     "url": "/static/media/schole-img06.948902c2.png"
-  },
-  {
-    "revision": "ef66432487f29d6a88d13cf817f7cd21",
-    "url": "/static/media/framer-img01.ef664324.png"
   },
   {
     "revision": "385eafab8fe02b9579f699a91dec83fd",
@@ -220,7 +220,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile_m.52621cec.png"
   },
   {
-    "revision": "0906ea9678f6cfa943d3a259e04112a6",
+    "revision": "bf1c95fd3a00a7fddfa24133763d08db",
     "url": "/index.html"
   }
 ];
