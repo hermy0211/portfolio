@@ -206,14 +206,14 @@
   /* Optimize PRISM Video Page */
 
   .prismvideo .cover {
-    height: 340px;
+    height: 100vh;
   }
 
   .prismvideo .cover .cover-image {
     height: 600px;
     position: absolute;
-    top: -150px;
-    right: -240px;
+    top: 20%;
+    left: 20%;
     opacity: 0.4;
   }
 
@@ -240,12 +240,25 @@
   .project-details-top,
   .project-details {
     font-size: 11px;
-    color: #918EA0;
+    color: white;
     line-height: 20px;
+    width: 100%;
+    position: absolute;
   }
 
   .project-details-top {
-    margin-top: 50px;
+    bottom: 16%;
+    z-index: 10;
+  }
+
+  .project-details-middle {
+    bottom: 12%;
+    z-index: 10;
+  }
+
+  .project-details-bottom {
+    bottom: 8%;
+    z-index: 10;
   }
 
   .project-details-text {
@@ -393,15 +406,20 @@
   /* Optimize PRISM Layout Page */
 
   .prismlayout .cover {
-    height: 340px;
+    height: 100vh;
   }
 
   .prismlayout .cover .cover-image {
-    width: 400px;
+    width: 560px;
     position: absolute;
-    top: 170px;
-    right: -170px;
-    opacity: 0.3;
+    top: 48%;
+    left: 20%;
+    opacity: 0.4;
+  }
+
+  .prismlayout .project-details,
+  .prismlayout .project-details-top {
+    color: white;
   }
 
   .prismlayout .limitations {
@@ -490,14 +508,20 @@
   /* Optimize Framer Page */
 
   .framer .cover {
-    height: 340px;
+    height: 100vh;
   }
 
   .framer .cover .cover-image {
-    height: 180px;
+    height: 300px;
     opacity: 0.4;
-    top: 180px;
-    right: -60px;
+    top: 46%;
+    left: 30%;
+    position: absolute;
+  }
+
+  .framer .project-details,
+  .framer .project-details-top {
+    color: white;
   }
 
   .framer .reel .video {
@@ -562,14 +586,20 @@
   /* Optimize Schole Page */
 
   .schole .cover {
-    height: 340px;
+    height: 100vh;
   }
 
   .schole .cover .cover-image {
-    height: 300px;
+    height: 420px;
     opacity: 0.4;
-    top: 80px;
-    left: 25%;
+    top: 34%;
+    left: 2%;
+    position: absolute;
+  }
+
+  .schole .project-details,
+  .schole .project-details-top {
+    color: white;
   }
 
   .schole .pc-designs {

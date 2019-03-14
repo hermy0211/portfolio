@@ -60,10 +60,10 @@ class ProjectNav extends Component {
           <div className="project-details-top">
             <div className="project-details-title">Roles</div><div className="project-details-text">{this.props.roles}</div>
           </div>
-          <div className="project-details">
+          <div className="project-details project-details-middle">
             <div className="project-details-title">Date</div><div className="project-details-text">{this.props.date}</div>
           </div>
-          <div className="project-details">
+          <div className="project-details project-details-bottom">
             <div className="project-details-title">Firm</div><div className="project-details-text">{this.props.firm}</div>
           </div>
         </div>
