@@ -33,7 +33,8 @@ class PrismVideo extends Component {
             logo={this.state.logoImage}
             title={["PRISM Live Studio", <br/>, "Video Editing Redesign"]}
             domain="Mobile Application"
-            roles="User Research, UX Design, Project Management"
+            roles="UX: Sun Lee, Anne Lee"
+            rolesTwo="UI: Jiyoung Park, Youngok Choi, Goeun Han"
             date="2018.07 - 2018.09"
             firm="NAVER Corp."
           />

@@ -101,7 +101,8 @@ class PrismLayout extends Component {
             logo={this.state.logoImage}
             title={["PRISM Live Studio", <br/>, "Layout Redesign"]}
             domain="PC Application"
-            roles="UX Design, Project Management"
+            roles="UX: Sun Lee, Anne Lee"
+            rolesTwo="UI: Youngok Choi, Goeun Han"
             date="2018.04 - 2018.09"
             firm="NAVER Corp."
           />

@@ -659,6 +659,10 @@
   font-family: circular-std-medium, Arial, sans-serif;
 }
 
+.project-details-title-second {
+  visibility: hidden;
+}
+
 .project-details-text {
   font-family: circular-std-book, Arial, sans-serif;
   position: absolute;

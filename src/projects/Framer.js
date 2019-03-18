@@ -32,7 +32,8 @@ class Framer extends Component {
             logo={this.state.logoImage}
             title="30 Days of Framer X"
             domain="Interactive Prototypes"
-            roles="UX Design, UI Design, Programming"
+            roles="UX/UI: Anne Lee"
+            rolesTwo="Programming: Anne Lee"
             date="2018.10 - 2018.11"
             firm="Personal Project"
           />

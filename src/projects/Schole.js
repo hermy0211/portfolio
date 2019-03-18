@@ -31,7 +31,8 @@ class Schole extends Component {
             logo={this.state.logoImage}
             title={["Scholé", <br/>, "Website Renewal"]}
             domain="PC / Mobile Web"
-            roles="UX Design, Project Management"
+            roles="UX: Anne Lee, Sooyeon Kang"
+            rolesTwo="UI: Jihoon Choi, Minsoon Jang"
             date="2016.10 - 2017.01"
             firm="ST Unitas"
           />
@@ -63,7 +64,7 @@ class Schole extends Component {
         <div className="problem">
           <div className="content-title">Incentifying through the Promotion of Projects</div>
           <div className="content end">
-          We realized that we could incentify the companies by helping them promote their projects. In order to reinforce this value, we came up with the concept of ‘Project Awards’, emphasizing on every part of the website that the projects we had collected were carefully selected, innovative projects that had changed the industry.<br/><br/><br/>By giving them proper recognition, we were able to persuade many companies to contribute their content - laying the foundation of a more sustainable content distribution system.
+          We realized that we could incentify the companies by helping them promote their projects. In order to reinforce this value, we came up with the concept of ‘Project Awards’, emphasizing on every part of the website that the projects we had collected were carefully selected, innovative projects that had changed the industry.<br/><br/>By giving them proper recognition, we were able to persuade many companies to contribute their content - laying the foundation of a more sustainable content distribution system.
           </div>
         </div>
         <div className="pc-designs">

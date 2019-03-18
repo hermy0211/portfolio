@@ -239,7 +239,7 @@
 
   .project-details-top,
   .project-details {
-    font-size: 11px;
+    font-size: 11px !important;
     color: white;
     line-height: 20px;
     width: 100%;
@@ -247,11 +247,16 @@
   }
 
   .project-details-top {
+    bottom: 20%;
+    z-index: 10;
+  }
+
+  .project-details-second {
     bottom: 16%;
     z-index: 10;
   }
 
-  .project-details-middle {
+  .project-details-third {
     bottom: 12%;
     z-index: 10;
   }
