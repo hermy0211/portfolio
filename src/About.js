@@ -65,15 +65,15 @@ class About extends Component {
           <div className="about-content">
             <div>
               Hi, my name is Anne.<br/><br/>
-              I am a hybrid UX / UI designer currently working as a Product Designer at Naver, the #1 tech company in South Korea. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
+              I am a UX designer currently working as a Product Designer at Naver, the #1 tech company in South Korea. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
             </div>
             <div data-aos="fade-up">
-              <span className="about-title">Experience with Designing Full Systems</span><br/><br/>
-              I have successfully shipped 5 digital products from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing systems from end-to-end, and gradually scaling design.<br/><br/><br/>
+              <span className="about-title">Experience Designing from Brief to Shipment</span><br/><br/>
+              I have successfully shipped 5 digital products from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web, mobile and desktop.<br/><br/><br/>
             </div>
             <div data-aos="fade-up">
-              <span className="about-title">Expertise in Video Technology</span><br/><br/>
-              My most recent work has been focused around video production tools for streamers and creators. I am an expert on video platform trends, and possess a good understanding of advanced video technologies. I am capable of implementing complex video features such as quality optimization and timeline based editing.<br/><br/><br/>
+              <span className="about-title">Experience with Complex Interactive Products</span><br/><br/>
+              My most recent work has been focused around professional video production tools for streamers and creators. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints. I am capable of implementing complex video features such as quality optimization and timeline based editing.<br/><br/><br/>
             </div>
             <div data-aos="fade-up">
               <span className="about-title">Qualified in Programming</span><br/><br/>
