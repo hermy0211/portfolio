@@ -40,28 +40,28 @@ class Framer extends Component {
           <img src={img01} alt="Cover" className="cover-image"/>
         </div>
         <div className="summary">
-          <div className="content-title">Project Summary</div>
-          <div className="content featured">This project was featured by the Framer team.</div>
-          <div className="content end">
+          <div className="content-title" data-aos="fade-up">Project Summary</div>
+          <div className="content featured" data-aos="fade-up">This project was featured by the Framer team.</div>
+          <div className="content end" data-aos="fade-up">
             30 Days of Framer X is a personal prototyping project in which I coded 30 interactive prototypes within 30 days using Framer X and React. Through this project, I pushed the boundaries of the then early, undocumented tool despite the lack of resources. I shared my code and projects online, and it became a reference for others new to the program.
           </div>
         </div>
         <div className="mockups">
-          <img src={img02} alt="Mockups" className="image"/>
+          <img src={img02} alt="Mockups" className="image" data-aos="fade-up"/>
         </div>
         <div className="challenge">
-          <div className="content-title white">Design Challenge</div>
-          <div className="content end white">How might we create interactive prototypes with React.js?</div>
+          <div className="content-title white" data-aos="fade-up">Design Challenge</div>
+          <div className="content end white" data-aos="fade-up">How might we create interactive prototypes with React.js?</div>
         </div>
         <div className="reel">
-          <div className="content-title">Project Reel</div>
-          <iframe className="video end" src="https://player.vimeo.com/video/315153476" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Framer Project Reel"></iframe>
+          <div className="content-title" data-aos="fade-up">Project Reel</div>
+          <iframe data-aos="fade-up" className="video end" src="https://player.vimeo.com/video/315153476" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Framer Project Reel"></iframe>
         </div>
         <div className="samples">
           <div className="samples-background">
-            <div className="content-title">Prototype Samples</div>
+            <div className="content-title" data-aos="fade-up">Prototype Samples</div>
             <div className="prototypes">
-              <div className="prototype left">
+              <div className="prototype left" data-aos="fade-up">
                 <div className="day-side pc">-- 03</div>
                 <div className="copyright-side pc">© Anne Lee, 2018</div>
                 <div className="details">
@@ -72,7 +72,7 @@ class Framer extends Component {
                 </div>
                 <img src={img03} alt="Day 03 Prototype" className="image"/>
               </div>
-              <div className="prototype right">
+              <div className="prototype right" data-aos="fade-up">
                 <div className="day-side pc">-- 08</div>
                 <div className="details">
                   <div className="day">DAY 08</div>
@@ -90,7 +90,7 @@ class Framer extends Component {
                 <div className="copyright-side pc">© Anne Lee, 2018</div>
                 <img src={img04} alt="Day 08 Prototype" className="image"/>
               </div>
-              <div className="prototype left">
+              <div className="prototype left" data-aos="fade-up">
                 <div className="day-side pc">-- 13</div>
                 <div className="copyright-side pc">© Anne Lee, 2018</div>
                 <div className="details">
@@ -101,7 +101,7 @@ class Framer extends Component {
                 </div>
                 <img src={img05} alt="Day 13 Prototype" className="image"/>
               </div>
-              <div className="prototype right">
+              <div className="prototype right" data-aos="fade-up">
                 <div className="day-side pc">-- 16</div>
                 <div className="details">
                   <div className="day">DAY 16</div>
@@ -122,7 +122,7 @@ class Framer extends Component {
                 <div className="copyright-side pc">© Anne Lee, 2018</div>
                 <img src={img06} alt="Day 16 Prototype" className="image"/>
               </div>
-              <div className="prototype left">
+              <div className="prototype left" data-aos="fade-up">
                 <div className="day-side pc">-- 24</div>
                 <div className="copyright-side pc">© Anne Lee, 2018</div>
                 <div className="details">

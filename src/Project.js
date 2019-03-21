@@ -35,7 +35,7 @@ class Project extends Component {
 
   render() {
     return (
-      <div className="project" onMouseOver={()=>this.hoverEvent(this.props.index)} onMouseOut={()=>this.cancelHover(this.props.index)}>
+      <div data-aos={this.props.aos} className="project" onMouseOver={()=>this.hoverEvent(this.props.index)} onMouseOut={()=>this.cancelHover(this.props.index)}>
         <Link to={this.props.link}>
           <div className="hmw">
             <div className="hmw-background" style={{backgroundColor: this.state.color}}>{this.props.hmw}</div>

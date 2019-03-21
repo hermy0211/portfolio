@@ -57,6 +57,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
 
+/* Import AOS */
+
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+
 /* Global Styles */
 
 .body {
@@ -477,7 +481,7 @@
   width: 369px;
 }
 
-.articles .left .articles-intro {
+.articles .right .articles-intro {
   font-family: circular-std-book;
   margin-top: 0px;
   margin-bottom: 58px;
@@ -485,7 +489,7 @@
   line-height: 28px;
 }
 
-.articles .left .articles-intro .bold {
+.articles .right .articles-intro .bold {
   font-family: circular-std-medium, Arial, sans-serif;
 }
 

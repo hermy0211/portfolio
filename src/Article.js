@@ -15,8 +15,8 @@ class Article extends Component {
 
   render() {
     return (
-      <div className="article" onMouseOver={()=>this.hoverEvent(this.props.index)} onMouseOut={()=>this.cancelHover(this.props.index)}>
-        <a href={this.props.link}>
+      <div data-aos={this.props.aos} className="article" onMouseOver={()=>this.hoverEvent(this.props.index)} onMouseOut={()=>this.cancelHover(this.props.index)}>
+        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
           <div className={this.props.class}>
             <div className="article-image">
               <img src={this.props.image} className="article-image-size" alt="Article Thumbnail"/>

@@ -75,6 +75,7 @@ class Main extends Component {
               I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">scales</span> to billions of users.
             </p>
             <Project
+              aos=""
               image={this.state.projectOneImage}
               link="/prismvideo"
               class="project-default"
@@ -85,6 +86,7 @@ class Main extends Component {
               index="0"
             />
             <Project
+              aos="fade-up"
               image={this.state.projectThreeImage}
               link="/schole"
               class="project-last"
@@ -97,9 +99,10 @@ class Main extends Component {
           </div>
           <div className="right">
             <Project
+              aos=""
               image={this.state.projectTwoImage}
               link="/prismlayout"
-              class="project-default"
+              class="project-default pc"
               hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
               color="rgba(251, 192, 96, 0.95)"
               title="PRISM Layout Redesign"
@@ -107,6 +110,18 @@ class Main extends Component {
               index="2"
             />
             <Project
+              aos="fade-up"
+              image={this.state.projectTwoImage}
+              link="/prismlayout"
+              class="project-default mobile"
+              hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
+              color="rgba(251, 192, 96, 0.95)"
+              title="PRISM Layout Redesign"
+              category="PC Application"
+              index="2"
+            />
+            <Project
+              aos="fade-up"
               image={this.state.projectFourImage}
               link="/framer30"
               class="project-default"
