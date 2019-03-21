@@ -78,6 +78,7 @@ class Main extends Component {
               aos=""
               image={this.state.projectOneImage}
               link="/prismvideo"
+              hmwClass="hmw"
               class="project-default"
               hmw={["How might we improve", <br/>, "the usability of the app", <br/>, "for Vlog creators?"]}
               color="rgba(11, 156, 150, 0.95)"
@@ -89,6 +90,7 @@ class Main extends Component {
               aos="fade-up"
               image={this.state.projectThreeImage}
               link="/schole"
+              hmwClass="hmw hmw-exception"
               class="project-last"
               hmw={["How might we create value", <br/>, "for the content providers", <br/>, "of an education platform?"]}
               color="rgba(233, 111, 94, 0.95)"
@@ -98,32 +100,37 @@ class Main extends Component {
             />
           </div>
           <div className="right">
-            <Project
-              aos=""
-              image={this.state.projectTwoImage}
-              link="/prismlayout"
-              class="project-default pc"
-              hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
-              color="rgba(251, 192, 96, 0.95)"
-              title="PRISM Layout Redesign"
-              category="PC Application"
-              index="2"
-            />
-            <Project
-              aos="fade-up"
-              image={this.state.projectTwoImage}
-              link="/prismlayout"
-              class="project-default mobile"
-              hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
-              color="rgba(251, 192, 96, 0.95)"
-              title="PRISM Layout Redesign"
-              category="PC Application"
-              index="2"
-            />
+            {window.innerWidth<=1009 ?
+              <Project
+                aos="fade-up"
+                image={this.state.projectTwoImage}
+                link="/prismlayout"
+                hmwClass="hmw hmw-exception"
+                class="project-default mobile"
+                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
+                color="rgba(251, 192, 96, 0.95)"
+                title="PRISM Layout Redesign"
+                category="PC Application"
+                index="2"
+              /> :
+              <Project
+                aos=""
+                image={this.state.projectTwoImage}
+                link="/prismlayout"
+                hmwClass="hmw"
+                class="project-default"
+                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
+                color="rgba(251, 192, 96, 0.95)"
+                title="PRISM Layout Redesign"
+                category="PC Application"
+                index="2"
+              />
+            }
             <Project
               aos="fade-up"
               image={this.state.projectFourImage}
               link="/framer30"
+              hmwClass="hmw hmw-exception"
               class="project-default"
               hmw={["How might we create", <br/>, "interactive prototypes", <br/>, "with React.js?"]}
               color="rgba(114, 164, 238, 0.95)"
