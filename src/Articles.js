@@ -73,7 +73,7 @@ class Articles extends Component {
           </div>
         </section>
         <section className="articles">
-          <div className="right">
+          <div className="left">
             <p className="articles-intro">
               I write insightful articles<br/>that <span className="bold">up-levels the design community</span>.<br/>I share <span className="bold">unique findings</span> from my work,<br/>and introduce <span className="bold">novel trends</span> and <span className="bold">ideas</span>.
             </p>
@@ -86,7 +86,7 @@ class Articles extends Component {
               subtitle="Going Beyond the Communication"
               date="September 9th, 2018"
               dateClass="article-date two-line"
-              index="3"
+              index="0"
             />
             <Article
               aos="fade-up"
@@ -97,7 +97,7 @@ class Articles extends Component {
               subtitle="30 Prototypes in 30 Days"
               date="November 16th, 2018"
               dateClass="article-date one-line"
-              index="4"
+              index="1"
             />
             <Article
               aos="fade-up"
@@ -108,32 +108,34 @@ class Articles extends Component {
               subtitle="A Look into the Oculus Design"
               date="December 3rd, 2017"
               dateClass="article-date two-line"
-              index="5"
+              index="2"
             />
           </div>
-          <div className="left">
-            <Article
-              aos=""
-              link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
-              class="article-default pc"
-              image={this.state.articleOneImage}
-              title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
-              subtitle="Insights from Top Tech Companies"
-              date="November 22nd, 2017"
-              dateClass="article-date two-line"
-              index="0"
-            />
-            <Article
-              aos="fade-up"
-              link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
-              class="article-default mobile"
-              image={this.state.articleOneImage}
-              title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
-              subtitle="Insights from Top Tech Companies"
-              date="November 22nd, 2017"
-              dateClass="article-date two-line"
-              index="0"
-            />
+          <div className="right">
+            {window.innerWidth<=1009 ?
+              <Article
+                aos="fade-up"
+                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
+                class="article-default mobile"
+                image={this.state.articleOneImage}
+                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
+                subtitle="Insights from Top Tech Companies"
+                date="November 22nd, 2017"
+                dateClass="article-date two-line"
+                index="3"
+              /> :
+              <Article
+                aos=""
+                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
+                class="article-default"
+                image={this.state.articleOneImage}
+                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
+                subtitle="Insights from Top Tech Companies"
+                date="November 22nd, 2017"
+                dateClass="article-date two-line"
+                index="3"
+              />
+            }
             <Article
               aos="fade-up"
               link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
@@ -143,7 +145,7 @@ class Articles extends Component {
               subtitle="4 Concepts for PC App Design"
               date="July 14th, 2018"
               dateClass="article-date one-line"
-              index="1"
+              index="4"
             />
             <Article
               aos="fade-up"
@@ -154,7 +156,7 @@ class Articles extends Component {
               subtitle="Updates from November 2017"
               date="November 24th, 2017"
               dateClass="article-date one-line"
-              index="2"
+              index="5"
             />
           </div>
         </section>

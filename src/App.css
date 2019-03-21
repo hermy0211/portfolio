@@ -481,7 +481,7 @@
   width: 369px;
 }
 
-.articles .right .articles-intro {
+.articles .left .articles-intro {
   font-family: circular-std-book;
   margin-top: 0px;
   margin-bottom: 58px;
@@ -489,7 +489,7 @@
   line-height: 28px;
 }
 
-.articles .right .articles-intro .bold {
+.articles .left .articles-intro .bold {
   font-family: circular-std-medium, Arial, sans-serif;
 }
 
