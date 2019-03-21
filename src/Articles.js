@@ -69,7 +69,7 @@ class Articles extends Component {
             Product Designer
           </div>
           <div className="speciality">
-            UX UI / Front-End Dev
+            UX / Interactive Prototyping
           </div>
         </section>
         <section className="articles">
