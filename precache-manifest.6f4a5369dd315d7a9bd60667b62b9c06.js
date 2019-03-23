@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "39bb86a71e5265d025618a907f44420d",
-    "url": "/static/media/prismlayout-img02.39bb86a7.png"
+    "revision": "f475ac585018fdbec0f92ff3cfb8e01f",
+    "url": "/static/media/prismlayout-img06.f475ac58.png"
   },
   {
-    "revision": "6f79f806e9e552c1c729",
-    "url": "/static/css/main.9bcf6509.chunk.css"
+    "revision": "f862ae8bdbaaaac51815",
+    "url": "/static/css/main.5bb48f5a.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "3eb0a6f0637c7db6cc80",
-    "url": "/static/js/2.4bd13dd9.chunk.js"
+    "revision": "e6574c98723d07aa33d7",
+    "url": "/static/js/2.1211f947.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
-    "revision": "8d5dbe8149820b1202cbaf34b7204598",
-    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
-  },
-  {
     "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
     "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
+  },
+  {
+    "revision": "8d5dbe8149820b1202cbaf34b7204598",
+    "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
     "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
@@ -96,12 +96,12 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img01.07be831e.png"
   },
   {
-    "revision": "6f79f806e9e552c1c729",
-    "url": "/static/js/main.69606f32.chunk.js"
+    "revision": "39bb86a71e5265d025618a907f44420d",
+    "url": "/static/media/prismlayout-img02.39bb86a7.png"
   },
   {
-    "revision": "f475ac585018fdbec0f92ff3cfb8e01f",
-    "url": "/static/media/prismlayout-img06.f475ac58.png"
+    "revision": "f862ae8bdbaaaac51815",
+    "url": "/static/js/main.adc07799.chunk.js"
   },
   {
     "revision": "644c21737ed3d95a191d0f5ca8a0134d",
@@ -192,7 +192,11 @@ self.__precacheManifest = [
     "url": "/static/media/profile.656c0f4c.png"
   },
   {
-    "revision": "be12a809953db69333dd34128b2231cc",
+    "revision": "e3ba7ffdbaf5074d6bc9b5bb99a6fb05",
+    "url": "/static/media/Resume_Anne Lee.e3ba7ffd.pdf"
+  },
+  {
+    "revision": "c6d6198fc2daa33ab823a4452b8c7c09",
     "url": "/index.html"
   }
 ];
