@@ -73,46 +73,86 @@ class Articles extends Component {
           </div>
         </section>
         <section className="articles">
-          <div className="left">
-            <p className="articles-intro">
-              I write insightful articles<br/>that <span className="bold">up-levels the design community</span>.<br/>I share <span className="bold">unique findings</span> from my work,<br/>and introduce <span className="bold">novel trends</span> and <span className="bold">ideas</span>.
-            </p>
-            <Article
-              aos=""
-              link="https://uxplanet.org/how-learning-to-code-impacted-my-daily-job-as-a-designer-d0b9583927ab"
-              class="article-default"
-              image={this.state.articleTwoImage}
-              title={["How Learning to Code Impacted", <br/>, "My Daily Job as a Designer"]}
-              subtitle="Going Beyond the Communication"
-              date="September 9th, 2018"
-              dateClass="article-date two-line"
-              index="0"
-            />
-            <Article
-              aos="fade-up"
-              link="https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1"
-              class="article-default"
-              image={this.state.articleFourImage}
-              title="30 Days of Framer X : Final Week"
-              subtitle="30 Prototypes in 30 Days"
-              date="November 16th, 2018"
-              dateClass="article-date one-line"
-              index="1"
-            />
-            <Article
-              aos="fade-up"
-              link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
-              class="article-default"
-              image={this.state.articleSixImage}
-              title={["How Facebook Designs for", <br/>, "VR Environments"]}
-              subtitle="A Look into the Oculus Design"
-              date="December 3rd, 2017"
-              dateClass="article-date two-line"
-              index="2"
-            />
-          </div>
-          <div className="right">
-            {window.innerWidth<=1009 ?
+          {window.innerWidth<=1009 ?
+            <div className="left">
+              <p className="articles-intro">
+                I write insightful articles<br/>that <span className="bold">up-levels the design community</span>.<br/>I share <span className="bold">unique findings</span> from my work,<br/>and introduce <span className="bold">novel trends</span> and <span className="bold">ideas</span>.
+              </p>
+              <Article
+                aos=""
+                link="https://uxplanet.org/how-learning-to-code-impacted-my-daily-job-as-a-designer-d0b9583927ab"
+                class="article-default"
+                image={this.state.articleTwoImage}
+                title={["How Learning to Code Impacted", <br/>, "My Daily Job as a Designer"]}
+                subtitle="Going Beyond the Communication"
+                date="September 9th, 2018"
+                dateClass="article-date two-line"
+                index="0"
+              />
+              <Article
+                aos="fade-up"
+                link="https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1"
+                class="article-default"
+                image={this.state.articleFourImage}
+                title="30 Days of Framer X : Final Week"
+                subtitle="30 Prototypes in 30 Days"
+                date="November 16th, 2018"
+                dateClass="article-date one-line"
+                index="1"
+              />
+              <Article
+                aos="fade-up"
+                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
+                class="article-default"
+                image={this.state.articleSixImage}
+                title={["How Facebook Designs for", <br/>, "VR Environments"]}
+                subtitle="A Look into the Oculus Design"
+                date="December 3rd, 2017"
+                dateClass="article-date two-line"
+                index="2"
+              />
+            </div> :
+            <div className="left">
+              <p className="articles-intro">
+                I write insightful articles<br/>that <span className="bold">up-levels the design community</span>.<br/>I share <span className="bold">unique findings</span> from my work,<br/>and introduce <span className="bold">novel trends</span> and <span className="bold">ideas</span>.
+              </p>
+              <Article
+                aos=""
+                link="https://uxplanet.org/how-learning-to-code-impacted-my-daily-job-as-a-designer-d0b9583927ab"
+                class="article-default"
+                image={this.state.articleTwoImage}
+                title={["How Learning to Code Impacted", <br/>, "My Daily Job as a Designer"]}
+                subtitle="Going Beyond the Communication"
+                date="September 9th, 2018"
+                dateClass="article-date two-line"
+                index="0"
+              />
+              <Article
+                aos=""
+                link="https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1"
+                class="article-default"
+                image={this.state.articleFourImage}
+                title="30 Days of Framer X : Final Week"
+                subtitle="30 Prototypes in 30 Days"
+                date="November 16th, 2018"
+                dateClass="article-date one-line"
+                index="1"
+              />
+              <Article
+                aos=""
+                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
+                class="article-default"
+                image={this.state.articleSixImage}
+                title={["How Facebook Designs for", <br/>, "VR Environments"]}
+                subtitle="A Look into the Oculus Design"
+                date="December 3rd, 2017"
+                dateClass="article-date two-line"
+                index="2"
+              />
+            </div>
+          }
+          {window.innerWidth<=1009 ?
+            <div className="right">
               <Article
                 aos="fade-up"
                 link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
@@ -123,7 +163,31 @@ class Articles extends Component {
                 date="November 22nd, 2017"
                 dateClass="article-date two-line"
                 index="3"
-              /> :
+              />
+              <Article
+                aos="fade-up"
+                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
+                class="article-default"
+                image={this.state.articleThreeImage}
+                title="Designing for PC Apps"
+                subtitle="4 Concepts for PC App Design"
+                date="July 14th, 2018"
+                dateClass="article-date one-line"
+                index="4"
+              />
+              <Article
+                aos="fade-up"
+                link="https://uxplanet.org/apple-clips-ux-review-29878dc83db3"
+                class="article-last"
+                image={this.state.articleFiveImage}
+                title="Apple Clips UX Review"
+                subtitle="Updates from November 2017"
+                date="November 24th, 2017"
+                dateClass="article-date one-line"
+                index="5"
+              />
+            </div> :
+            <div className="right">
               <Article
                 aos=""
                 link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
@@ -135,30 +199,30 @@ class Articles extends Component {
                 dateClass="article-date two-line"
                 index="3"
               />
-            }
-            <Article
-              aos="fade-up"
-              link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
-              class="article-default"
-              image={this.state.articleThreeImage}
-              title="Designing for PC Apps"
-              subtitle="4 Concepts for PC App Design"
-              date="July 14th, 2018"
-              dateClass="article-date one-line"
-              index="4"
-            />
-            <Article
-              aos="fade-up"
-              link="https://uxplanet.org/apple-clips-ux-review-29878dc83db3"
-              class="article-last"
-              image={this.state.articleFiveImage}
-              title="Apple Clips UX Review"
-              subtitle="Updates from November 2017"
-              date="November 24th, 2017"
-              dateClass="article-date one-line"
-              index="5"
-            />
-          </div>
+              <Article
+                aos=""
+                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
+                class="article-default"
+                image={this.state.articleThreeImage}
+                title="Designing for PC Apps"
+                subtitle="4 Concepts for PC App Design"
+                date="July 14th, 2018"
+                dateClass="article-date one-line"
+                index="4"
+              />
+              <Article
+                aos=""
+                link="https://uxplanet.org/apple-clips-ux-review-29878dc83db3"
+                class="article-last"
+                image={this.state.articleFiveImage}
+                title="Apple Clips UX Review"
+                subtitle="Updates from November 2017"
+                date="November 24th, 2017"
+                dateClass="article-date one-line"
+                index="5"
+              />
+            </div>
+          }
         </section>
       </div>
     );
