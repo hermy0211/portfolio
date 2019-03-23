@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img06.f475ac58.png"
   },
   {
-    "revision": "f862ae8bdbaaaac51815",
+    "revision": "1197a38278b28b73a6af",
     "url": "/static/css/main.5bb48f5a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/static/js/2.1211f947.chunk.js"
   },
   {
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
+  },
+  {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
     "url": "/static/media/CircularStd-Black.b5fa1b55.woff"
   },
   {
     "revision": "2153a12d1db4eda5b954e54532175e5d",
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
-  },
-  {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img02.39bb86a7.png"
   },
   {
-    "revision": "f862ae8bdbaaaac51815",
-    "url": "/static/js/main.adc07799.chunk.js"
+    "revision": "1197a38278b28b73a6af",
+    "url": "/static/js/main.e1e266f6.chunk.js"
   },
   {
     "revision": "644c21737ed3d95a191d0f5ca8a0134d",
@@ -192,11 +192,11 @@ self.__precacheManifest = [
     "url": "/static/media/profile.656c0f4c.png"
   },
   {
-    "revision": "e3ba7ffdbaf5074d6bc9b5bb99a6fb05",
-    "url": "/static/media/Resume_Anne Lee.e3ba7ffd.pdf"
+    "revision": "1309a18a3a34823d31b7beacdaa1b023",
+    "url": "/static/media/Resume_Anne Lee.1309a18a.pdf"
   },
   {
-    "revision": "c6d6198fc2daa33ab823a4452b8c7c09",
+    "revision": "8cc9f4b3d84b0a8039d31d64fb56b05a",
     "url": "/index.html"
   }
 ];
