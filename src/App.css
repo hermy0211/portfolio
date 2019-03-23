@@ -590,6 +590,38 @@
   font-size: 20px;
 }
 
+.about-resume {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.about-resume a {
+  text-decoration: none;
+  width: 210px;
+  height: 38px;
+  color: #02CF5D;
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 2px solid #02CF5D;
+  cursor: pointer;
+  border-radius: 38px;
+  transition: all 0.4s;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-resume a:hover {
+  color: white;
+  background-color: #02CF5D;
+  border: 2px solid #02CF5D;
+}
+
 /* PROJECT PAGE - PRISM VIDEO */
 
 .prismvideo .navigation-sub {

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
 import profile from "./img/profile.png";
+import resume from "./Resume_Anne Lee.pdf";
 
 class About extends Component {
   state = {
@@ -103,6 +104,9 @@ class About extends Component {
               </div>
             }
         </section>
+        <div className="about-resume">
+          <a href={resume} download className="about-download-button">DOWNLOAD CV</a>
+        </div>
       </div>
     );
   }

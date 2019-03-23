@@ -207,6 +207,11 @@
     font-size: 20px;
   }
 
+  .about-resume a {
+    width: 180px;
+    font-size: 14px;
+  }
+
   /* Optimize PRISM Video Page */
 
   .prismvideo .cover {
