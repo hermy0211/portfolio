@@ -68,7 +68,7 @@ class Framer extends Component {
                   <div className="day">DAY 03</div>
                   <div className="title">Circular Menu Animation</div>
                   <div className="description pc">This is an example of a circular menu that you can tap in order to show the different menu options. When you tap on the button, the menu opens and the icons roll in. When you tap on an icon, the menu closes.</div>
-                  <div className="description mobile">This is an example of a circular menu that you can tap in order to show the different menu options. When you tap on the button, the menu opens and the icons roll in.</div>
+                  <div className="description mobile">This is an example of a circular menu that you can tap in order to show the different menu options. When you tap, the menu opens and the icons roll in.</div>
                 </div>
                 <img src={img03} alt="Day 03 Prototype" className="image"/>
               </div>
@@ -113,9 +113,9 @@ class Framer extends Component {
                     Here's an example using that functionality.
                   </div>
                   <div className="description mobile">
-                    You can pass in an (event: Point) parameter
-                    to the onTap event to access the x, y
-                    coordinates of your mouse pointer.
+                    You can pass in (event: Point)
+                    to an onTap event to access the x, y
+                    coordinates of your mouse.
                     Here's an example using that functionality.
                   </div>
                 </div>
@@ -138,7 +138,7 @@ class Framer extends Component {
                   <div className="description mobile">
                     onMove() comes in really handy when getting scroll event data.
                     In this prototype, I'm using the y coordinate to
-                    dynamically render the other components.
+                    render the other components.
                   </div>
                 </div>
                 <img src={img07} alt="Day 24 Prototype" className="image"/>
