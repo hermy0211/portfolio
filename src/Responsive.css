@@ -456,6 +456,12 @@
     font-size: 16px;
   }
 
+  .prismlayout .concepts .content-title .concept-title::before  {
+    margin-left: -40px;
+    width: 80px;
+    height: 2px;
+  }
+
   .prismlayout .proscons {
     margin: 30px auto 0 auto;
     width: calc(100% - 80px);
@@ -499,6 +505,12 @@
 
   .prismlayout .compare .compare-title .solution-title {
     font-size: 20px;
+  }
+
+  .prismlayout .compare .compare-title .solution-title::before {
+    margin-left: -25px;
+    width: 50px;
+    height: 2px;
   }
 
   .prismlayout .tobe {

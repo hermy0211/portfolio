@@ -1029,11 +1029,32 @@
 .prismlayout .concepts .content-title .concept-title {
   transition: color 0.2s;
   padding: 4px 4px 4px 4px;
+  position: relative;
 }
 
 .prismlayout .concepts .content-title .concept-title:hover {
   color: black;
   cursor: pointer;
+}
+
+.prismlayout .concepts .content-title .concept-title:hover::before {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.prismlayout .concepts .content-title .concept-title::before  {
+  color: black;
+  position: absolute;
+  bottom: -0.1em;
+  left: 50%;
+  margin-left: -64px;
+  content: '';
+  opacity: 0;
+  background: black;
+  width: 128px;
+  height: 4px;
+  transition: 0.2s ease-in;
+  transform: scale3d(0, 1, 1);
 }
 
 .prismlayout .concepts .content-title .inactive {
@@ -1126,11 +1147,32 @@
   transition: color 0.2s;
   color: #3B3B3B;
   padding: 4px 4px 4px 4px;
+  position: relative;
 }
 
 .prismlayout .compare .compare-title .solution-title:hover {
   color: white;
   cursor: pointer;
+}
+
+.prismlayout .compare .compare-title .solution-title:hover::before {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.prismlayout .compare .compare-title .solution-title::before {
+  color: white;
+  position: absolute;
+  bottom: -0.1em;
+  content: '';
+  opacity: 0;
+  background: white;
+  left: 50%;
+  margin-left: -33px;
+  width: 66px;
+  height: 4px;
+  transition: 0.2s ease-in;
+  transform: scale3d(0, 1, 1);
 }
 
 .prismlayout .compare .compare-title .inactive {
