@@ -73,7 +73,7 @@ class Main extends Component {
           {window.innerWidth<=1009 ?
             <div className="left">
               <p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">scales</span> to billions of users.
+                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
               </p>
               <Project
                 aos=""
@@ -102,7 +102,7 @@ class Main extends Component {
             </div> :
             <div className="left">
               <p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">scales</span> to billions of users.
+                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
               </p>
               <Project
                 aos=""
