@@ -140,7 +140,7 @@ class Main extends Component {
                 class="project-default mobile"
                 hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
                 color="rgba(251, 192, 96, 0.95)"
-                title="PRISM Layout Redesign"
+                title="PRISM Live Layout Redesign"
                 category="PC Application"
                 index="2"
               />
@@ -166,7 +166,7 @@ class Main extends Component {
                 class="project-default"
                 hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
                 color="rgba(251, 192, 96, 0.95)"
-                title="PRISM Layout Redesign"
+                title="PRISM Live Layout Redesign"
                 category="PC Application"
                 index="2"
               />
