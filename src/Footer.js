@@ -37,7 +37,7 @@ class Footer extends Component {
             </a>
           </div>
           <div className="social-last">
-            <a href="mailto:hermy0211@naver.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:annesohyunlee@gmail.com" target="_blank" rel="noopener noreferrer">
               <img className="email" src={this.state.email} alt="Email Logo"/>
             </a>
           </div>

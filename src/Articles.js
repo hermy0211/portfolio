@@ -7,7 +7,7 @@ import articleone from './img/article-tn-01.png';
 import articletwo from './img/article-tn-02.png';
 import articlethree from './img/article-tn-03.png';
 import articlefour from './img/article-tn-04.png';
-import articlefive from './img/article-tn-05.png';
+import articlefive from './img/article-tn-05.jpeg';
 import articlesix from './img/article-tn-06.png';
 
 class Articles extends Component {
@@ -102,13 +102,14 @@ class Articles extends Component {
               />
               <Article
                 aos="fade-up"
-                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
+                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
                 class="article-default"
                 image={this.state.articleSixImage}
-                title={["How Facebook Designs for", <br/>, "VR Environments"]}
-                subtitle="A Look into the Oculus Design"
-                date="December 3rd, 2017"
-                dateClass="article-date two-line"
+                image={this.state.articleThreeImage}
+                title="Designing for PC Apps"
+                subtitle="4 Concepts for PC App Design"
+                date="July 14th, 2018"
+                dateClass="article-date one-line"
                 index="2"
               />
             </div> :
@@ -140,13 +141,14 @@ class Articles extends Component {
               />
               <Article
                 aos=""
-                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
+                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
                 class="article-default"
                 image={this.state.articleSixImage}
-                title={["How Facebook Designs for", <br/>, "VR Environments"]}
-                subtitle="A Look into the Oculus Design"
-                date="December 3rd, 2017"
-                dateClass="article-date two-line"
+                image={this.state.articleThreeImage}
+                title="Designing for PC Apps"
+                subtitle="4 Concepts for PC App Design"
+                date="July 14th, 2018"
+                dateClass="article-date one-line"
                 index="2"
               />
             </div>
@@ -155,41 +157,52 @@ class Articles extends Component {
             <div className="right">
               <Article
                 aos="fade-up"
-                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
+                link="https://www.framer.com/blog/posts/code-for-designers/"
                 class="article-default mobile"
-                image={this.state.articleOneImage}
-                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
-                subtitle="Insights from Top Tech Companies"
-                date="November 22nd, 2017"
+                image={this.state.articleFiveImage}
+                title={["The Designer's Guide", <br/>, "to Learning Code"]}
+                subtitle="Resources to Help Reach Your Goal"
+                date="May 1st, 2019"
                 dateClass="article-date two-line"
                 index="3"
               />
               <Article
                 aos="fade-up"
-                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
+                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
                 class="article-default"
-                image={this.state.articleThreeImage}
-                title="Designing for PC Apps"
-                subtitle="4 Concepts for PC App Design"
-                date="July 14th, 2018"
-                dateClass="article-date one-line"
+                image={this.state.articleOneImage}
+                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
+                subtitle="Insights from Top Tech Companies"
+                date="November 22nd, 2017"
+                dateClass="article-date two-line"
                 index="4"
               />
               <Article
                 aos="fade-up"
-                link="https://uxplanet.org/apple-clips-ux-review-29878dc83db3"
+                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
                 class="article-last"
-                image={this.state.articleFiveImage}
-                title="Apple Clips UX Review"
-                subtitle="Updates from November 2017"
-                date="November 24th, 2017"
-                dateClass="article-date one-line"
+                image={this.state.articleSixImage}
+                title={["How Facebook Designs for", <br/>, "VR Environments"]}
+                subtitle="A Look into the Oculus Design"
+                date="December 3rd, 2017"
+                dateClass="article-date two-line"
                 index="5"
               />
             </div> :
             <div className="right">
               <Article
                 aos=""
+                link="https://www.framer.com/blog/posts/code-for-designers/"
+                class="article-default"
+                image={this.state.articleFiveImage}
+                title={["The Designer's Guide", <br/>, "to Learning Code"]}
+                subtitle="Resources to Help Reach Your Goal"
+                date="May 1st, 2019"
+                dateClass="article-date two-line"
+                index="3"
+              />
+              <Article
+                aos=""
                 link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
                 class="article-default"
                 image={this.state.articleOneImage}
@@ -197,28 +210,17 @@ class Articles extends Component {
                 subtitle="Insights from Top Tech Companies"
                 date="November 22nd, 2017"
                 dateClass="article-date two-line"
-                index="3"
-              />
-              <Article
-                aos=""
-                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
-                class="article-default"
-                image={this.state.articleThreeImage}
-                title="Designing for PC Apps"
-                subtitle="4 Concepts for PC App Design"
-                date="July 14th, 2018"
-                dateClass="article-date one-line"
                 index="4"
               />
               <Article
                 aos=""
-                link="https://uxplanet.org/apple-clips-ux-review-29878dc83db3"
+                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
                 class="article-last"
-                image={this.state.articleFiveImage}
-                title="Apple Clips UX Review"
-                subtitle="Updates from November 2017"
-                date="November 24th, 2017"
-                dateClass="article-date one-line"
+                image={this.state.articleSixImage}
+                title={["How Facebook Designs for", <br/>, "VR Environments"]}
+                subtitle="A Look into the Oculus Design"
+                date="December 3rd, 2017"
+                dateClass="article-date two-line"
                 index="5"
               />
             </div>

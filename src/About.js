@@ -86,7 +86,7 @@ class About extends Component {
               <div className="about-content">
                 <div>
                   Hi, my name is Anne.<br/><br/>
-                  I am a UX designer currently working as a Product Designer at Naver, the #1 tech company in South Korea. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
+                  I am a UX designer currently working as a Product Designer at Naver, Korea's main search engine and top tech company. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
                 </div>
                 <div data-aos="">
                   <span className="about-title">Experience Designing from Brief to Shipment</span><br/><br/>
