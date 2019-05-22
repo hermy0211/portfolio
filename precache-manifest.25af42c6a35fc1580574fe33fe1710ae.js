@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img06.801f7d7a.png"
   },
   {
-    "revision": "a1d900081ac32294e96a",
+    "revision": "937c7809490e0e0bac95",
     "url": "/static/css/main.452b868a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "e6574c98723d07aa33d7",
-    "url": "/static/js/2.1211f947.chunk.js"
+    "revision": "44d52256b08b2bbdca13",
+    "url": "/static/js/2.6bca22fb.chunk.js"
   },
   {
     "revision": "b5fa1b553516d1cf8d03d6b4588058a0",
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img02.39bb86a7.png"
   },
   {
-    "revision": "a1d900081ac32294e96a",
-    "url": "/static/js/main.2874fb96.chunk.js"
+    "revision": "937c7809490e0e0bac95",
+    "url": "/static/js/main.7d5ea468.chunk.js"
   },
   {
     "revision": "644c21737ed3d95a191d0f5ca8a0134d",
@@ -180,8 +180,8 @@ self.__precacheManifest = [
     "url": "/static/media/article-tn-04.ac196e03.png"
   },
   {
-    "revision": "d2ccc73c8acf1631cfbae6df69275711",
-    "url": "/static/media/article-tn-05.d2ccc73c.png"
+    "revision": "db706a8da5d1d60bade8c71d983dcfb1",
+    "url": "/static/media/article-tn-05.db706a8d.jpeg"
   },
   {
     "revision": "afd76b7436f53d6c521e29a9013b2663",
@@ -192,11 +192,11 @@ self.__precacheManifest = [
     "url": "/static/media/profile.656c0f4c.png"
   },
   {
-    "revision": "84f5b7b6b55aa916ee887151a9850392",
-    "url": "/static/media/Resume_Anne Lee.84f5b7b6.pdf"
+    "revision": "2518ef4b8fa2de941cf792e43e704e95",
+    "url": "/static/media/Resume_Anne Lee.2518ef4b.pdf"
   },
   {
-    "revision": "18e971933800bf207481cf66d1289b3e",
+    "revision": "b5c126805a55727b5e2d45536f9fd814",
     "url": "/index.html"
   }
 ];
