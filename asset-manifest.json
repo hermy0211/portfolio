@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.452b868a.chunk.css",
-  "main.js": "/static/js/main.41396749.chunk.js",
-  "main.js.map": "/static/js/main.41396749.chunk.js.map",
+  "main.css": "/static/css/main.39e966b6.chunk.css",
+  "main.js": "/static/js/main.6812a7af.chunk.js",
+  "main.js.map": "/static/js/main.6812a7af.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.c5541365.js",
   "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.6bca22fb.chunk.js": "/static/js/2.6bca22fb.chunk.js",
-  "static/js/2.6bca22fb.chunk.js.map": "/static/js/2.6bca22fb.chunk.js.map",
+  "static/js/2.d2246abc.chunk.js": "/static/js/2.d2246abc.chunk.js",
+  "static/js/2.d2246abc.chunk.js.map": "/static/js/2.d2246abc.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.c307b09d683f0e6d6c2932e3c17fc4d3.js": "/precache-manifest.c307b09d683f0e6d6c2932e3c17fc4d3.js",
+  "precache-manifest.d6d1a0828b98a94ac832da60e5af0504.js": "/precache-manifest.d6d1a0828b98a94ac832da60e5af0504.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.452b868a.chunk.css.map": "/static/css/main.452b868a.chunk.css.map",
+  "static/css/main.39e966b6.chunk.css.map": "/static/css/main.39e966b6.chunk.css.map",
   "static/media/App.css": "/static/media/CircularStd-MediumItalic.eddb7021.woff",
   "static/media/Resume_Anne Lee.pdf": "/static/media/Resume_Anne Lee.2518ef4b.pdf",
   "static/media/article-tn-01.png": "/static/media/article-tn-01.68c379d1.png",
@@ -47,5 +47,7 @@
   "static/media/schole-img03.png": "/static/media/schole-img03.04e068d1.png",
   "static/media/schole-img04.png": "/static/media/schole-img04.b97ff6ac.png",
   "static/media/schole-img05.png": "/static/media/schole-img05.9a668215.png",
-  "static/media/schole-img06.png": "/static/media/schole-img06.0371ce0b.png"
+  "static/media/schole-img06.png": "/static/media/schole-img06.0371ce0b.png",
+  "static/media/schole-img07.png": "/static/media/schole-img07.99d5e973.png",
+  "static/media/schole-img08.png": "/static/media/schole-img08.1ace9cd7.png"
 }
