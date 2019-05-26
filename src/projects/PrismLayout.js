@@ -109,58 +109,76 @@ class PrismLayout extends Component {
           <img src={img01} alt="Cover" className="cover-image"/>
         </div>
         <div className="summary">
-          <div className="content-title white" data-aos="fade-up">Project Summary</div>
-          <div className="content end white" data-aos="fade-up">In this project, I redesigned the core layout of the app to better scale for future implementations. I defined the problem space, created high fidelity concept prototypes, developed the concepts and implemented them. Throughout the process, I was careful to balance the usability, business goals and technical constraints, and the end result was proved cohesive through the feedback of many users.</div>
+          <div className="summary-container">
+            <div className="summary-container-left">
+              <div className="content-title white">Summary</div>
+              <div className="content end white">
+                In this project, I redesigned the core layout of the app to scale for future implementations. Throughout the process, I was careful to balance the usability, business, and technical goals. The layout was proved easy to use by multiple users in an interview conducted shortly after the release.
+              </div>
+            </div>
+            <div className="summary-container-right">
+              <div className="content-title white">Contribution</div>
+              <div className="content end white">
+                • Ideated solutions for a given problem and presented them to stakeholders<br/>
+                • Created high fidelity prototypes, wireframes, and design specifications<br/>
+                • Worked closely with visual designers and engineers to ship the final product
+              </div>
+            </div>
+          </div>
         </div>
         <div className="background">
-          <div className="content-title" data-aos="fade-up">PRISM Live Studio PC,<br/>The Live Broadcasting Software for Beginners</div>
-          <div className="content end" data-aos="fade-up">PRISM Live Studio is a live streaming app with which you can stream to major platforms such as YouTube, Twitch, and Facebook. It is available for both desktop and mobile, and provides many interactive features which helps the streamer create more engaging content.</div>
+          <div className="stage-title stage-gray">ABOUT</div>
+          <div className="content-title-second">PRISM Live Studio PC,<br/>The Live Broadcasting Software for Beginners</div>
+          <div className="content end">PRISM Live Studio is a live streaming app with which you can stream to major platforms such as YouTube, Twitch, and Facebook. It is available for both desktop and mobile, and provides many interactive features which helps the streamer create more engaging content.</div>
         </div>
         <div className="effects">
-          <div className="content-title" data-aos="fade-up">Adding Mobile Camera Effects to the PC App</div>
-          <div className="content middle" data-aos="fade-up">At the start of this project, the only effects the desktop application offered were color filters. Yet there were plans to expand the library to include the effects already provided within the mobile app, such as AR masks and text.</div>
-          <div className="image-wrap" data-aos="fade-up"><img src={img02} alt="Mobile Camera Effects" className="image pc end"/></div>
-          <img src={img08} alt="Mobile Camera Effects - Mobile" className="image mobile end" data-aos="fade-up"/>
+          <div className="stage-title stage-gray">BACKGROUND</div>
+          <div className="content-title-second">Adding Mobile Camera Effects to the PC App</div>
+          <div className="content middle">At the start of this project, the only effects the desktop application offered were color filters. Yet there were plans to expand the library to include the effects already provided within the mobile app, such as AR masks and text.</div>
+          <div className="image-wrap"><img src={img02} alt="Mobile Camera Effects" className="image pc end"/></div>
+          <img src={img08} alt="Mobile Camera Effects - Mobile" className="image mobile end"/>
         </div>
         <div className="limitations">
-          <div className="content-title" data-aos="fade-up">The Need for a More Scalable Layout</div>
-          <div className="content middle" data-aos="fade-up">Currently, the color filters were located on the bottom of the app. In order to add more effects to the PC app, a few things questions needed answering.</div>
-          <iframe className="video" data-aos="fade-up" src="https://player.vimeo.com/video/320779251" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Original Flow"></iframe>
-          <div className="content pc end" data-aos="fade-up"><span className="bullet">• Where would we place the other effects?</span><br/>
+          <div className="stage-title stage-gray">PROBLEM</div>
+          <div className="content-title-second">The Need for a More Scalable Layout</div>
+          <div className="content middle">Currently, the color filters were located on the bottom of the app. In order to add more effects to the PC app, a few things questions needed answering.</div>
+          <iframe className="video" src="https://player.vimeo.com/video/320779251" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Original Flow"></iframe>
+          <div className="content pc end"><span className="bullet">• Where would we place the other effects?</span><br/>
             First of all, where would we place the other effect categories? How would we present the effects so it would be easy to see which ones could be applied at a glance?<br/><br/>
             <span className="bullet">• Where would we place the effect controls?</span><br/>
             Some effects, like text, came with customization controls such as font, size, and text animations. Where would we place these features?
           </div>
-          <div className="content mobile middle" data-aos="fade-up"><span className="bullet">• Where would we place the other effects?</span><br/>
+          <div className="content mobile middle"><span className="bullet">• Where would we place the other effects?</span><br/>
             First of all, where would we place the other effect categories? How would we present the effects so it would be easy to see which ones could be applied at a glance?<br/><br/>
             <span className="bullet">• Where would we place the effect controls?</span><br/>
             Some effects, like text, came with customization controls such as font, size, and text animations. Where would we place these features?
           </div>
-          <img src={img03} alt="Layout Limitations" className="image" data-aos="fade-up"/>
-          <div className="content end" data-aos="fade-up">
+          <img src={img03} alt="Layout Limitations" className="image"/>
+          <div className="content end">
             <span className="bullet">• Could we improve the hierarchy?</span><br/>
             Although the scenes and filters were located in the same panel, they were associated with different parts of the screen. Scenes had to do with the whole screen, while filters were applied to the sub-items of the screen. Was there a way to make this relationship easier to understand?
           </div>
         </div>
         <div className="challenge">
-          <div className="content-title white" data-aos="fade-up">Design Challenge</div>
-          <div className="content end white" data-aos="fade-up">How might we create a layout that is scalable and intuitive to use?</div>
+          <div className="content-title white">Design Challenge</div>
+          <div className="content end white">How might we create a layout that is scalable and intuitive to use?</div>
         </div>
         <div className="effects">
-          <div className="content-title" data-aos="fade-up">Exploring Different Placements of the Effects Panel</div>
-          <div className="content middle" data-aos="fade-up">During the first few design iterations, I explored various layouts; trying to find the best place to place the various effect options and controls.</div>
-          <img src={img04} alt="Concept Images" className="image" data-aos="fade-up"/>
-          <div className="content end" data-aos="fade-up">Although we only had plans to provide color filters and text at the time, I went ahead and created variations for two more types of effects (AR masks and beauty filters) for each concept. This made sure that each layout was scalable for a wider library of effects.</div>
+          <div className="stage-title stage-gray">APPROACH</div>
+          <div className="content-title-second">Exploring Different Placements of the Effects Panel</div>
+          <div className="content middle">During the first few design iterations, I explored various layouts; trying to find the best place to place the various effect options and controls.</div>
+          <img src={img04} alt="Concept Images" className="image"/>
+          <div className="content end">Although we only had plans to provide color filters and text at the time, I went ahead and created variations for two more types of effects (AR masks and beauty filters) for each concept. This made sure that each layout was scalable for a wider library of effects.</div>
         </div>
         <div className="concepts">
-          <div className="content-title" data-aos="fade-up">
+          <div className="content-title">
             <div className="concept-title active" onClick={()=>this.toggleConcepts(0)}>Concept A</div>
             <div className="concept-title inactive" onClick={()=>this.toggleConcepts(1)}>Concept B</div>
             <div className="concept-title inactive" onClick={()=>this.toggleConcepts(2)}>Concept C</div>
           </div>
-          <div className="content middle concept-a display" data-aos="fade-up">For Concept A, I tried preserving the existing usability as best as I could. I created a layout in which a small toolbar menu would pop up when a source was clicked, that showed the various effects available at hand.</div>
-          <iframe data-aos="fade-up" className="video concept-a display" src="https://player.vimeo.com/video/320780689" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
-          <div className="proscons concept-a display" data-aos="fade-up">
+          <div className="content middle concept-a display">For Concept A, I tried preserving the existing usability as best as I could. I created a layout in which a small toolbar menu would pop up when a source was clicked, that showed the various effects available at hand.</div>
+          <iframe className="video concept-a display" src="https://player.vimeo.com/video/320780689" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
+          <div className="proscons concept-a display">
             <div className="proscons-pros">
               <div className="proscons-title">PROS</div>
               <div className="proscons-content">This seemed like the obvious answer at first, as users would be able to adjust to the changes quickly. It was also a method used by Lightstream, a major player in this area.</div>
@@ -170,9 +188,9 @@ class PrismLayout extends Component {
               <div className="proscons-content">However, the current structure did not make it possible to add any type of control above the screen area. Also, this concept was not scalable for the growth of each effect category.</div>
             </div>
           </div>
-          <div className="content middle concept-b" data-aos="fade-up">The general idea of Concept B was that you could click on each source to expose a layer in the sources panel that showed you the various effect options that you could use on that particular source.</div>
+          <div className="content middle concept-b">The general idea of Concept B was that you could click on each source to expose a layer in the sources panel that showed you the various effect options that you could use on that particular source.</div>
           <iframe className="video concept-b" src="https://player.vimeo.com/video/320781033" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
-          <div className="proscons concept-b" data-aos="fade-up">
+          <div className="proscons concept-b">
             <div className="proscons-pros">
               <div className="proscons-title">PROS</div>
               <div className="proscons-content">With this layout, it was much easier to understand the relationship between the sources and effects.</div>
@@ -182,9 +200,9 @@ class PrismLayout extends Component {
               <div className="proscons-content">If one effect category expanded, the user would have no choice but to scroll down to access the other effects. Also, the panel hid the frequently used hide / show source button.</div>
             </div>
           </div>
-          <div className="content middle concept-c" data-aos="fade-up">Finally, for Concept C, I tried moving the scenes panel to the left, and dedicating the bottom area to effects. Considering that the average user about 4 scenes at most, and up to 4 sources per scene, I was confident that the change would not affect the usability of the scenes and sources panels.</div>
-          <iframe data-aos="fade-up" className="video concept-c" src="https://player.vimeo.com/video/320781164" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
-          <div className="proscons concept-c" data-aos="fade-up">
+          <div className="content middle concept-c">Finally, for Concept C, I tried moving the scenes panel to the left, and dedicating the bottom area to effects. Considering that the average user about 4 scenes at most, and up to 4 sources per scene, I was confident that the change would not affect the usability of the scenes and sources panels.</div>
+          <iframe className="video concept-c" src="https://player.vimeo.com/video/320781164" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
+          <div className="proscons concept-c">
             <div className="proscons-pros">
               <div className="proscons-title">PROS</div>
               <div className="proscons-content">Concept C was better than Concept B in that it did not harm the usability for any existing features. It was also easier with this layout to view all of the effect options at hand.</div>
@@ -196,20 +214,21 @@ class PrismLayout extends Component {
           </div>
         </div>
         <div className="solution">
-          <div className="content-title" data-aos="fade-up">The Final Solution</div>
-          <div className="content middle" data-aos="fade-up">
+          <div className="stage-title stage-white">OUTCOME</div>
+          <div className="content-title-second">Developing Concept C</div>
+          <div className="content middle">
             After comparing these three, my team and I decided to develop Concept C, as it did not lessen the usability for any of the exisiting controls, and had the best scalability for expansion of each effect library.<br/><br/>
             After many more iterations, I managed to solve the drawbacks C had had; such as :
           </div>
-          <img src={img05} data-aos="fade-up" alt="Changed Solution" className="image"/>
-          <div className="content middle" data-aos="fade-up">
+          <img src={img05} alt="Changed Solution" className="image"/>
+          <div className="content middle">
             <span className="bullet">• Changing the orientation of the scroll</span><br/>
             <span className="bullet">• Allowing the user to weaken the panel’s presence while streaming by giving them a hide panel option</span>
           </div>
-          <iframe data-aos="fade-up" className="video end" src="https://player.vimeo.com/video/320781912" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
+          <iframe className="video end" src="https://player.vimeo.com/video/320781912" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Concept A"></iframe>
         </div>
         <div className="compare">
-          <div className="compare-title"  data-aos="fade-up">
+          <div className="compare-title" >
             <div className="solution-title active" onClick={()=>this.toggleSolutions(0)}>To-Be</div>
             <div className="solution-title inactive" onClick={()=>this.toggleSolutions(1)}>As-Is</div>
           </div>

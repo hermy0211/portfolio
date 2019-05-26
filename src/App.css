@@ -710,6 +710,49 @@
   background-color: #353343;
 }
 
+.summary-container {
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.summary-container-left {
+  width: 360px;
+  margin-right: 64px;
+}
+
+.summary-container-left .content-title,
+.summary-container-left .content {
+  width: 360px;
+}
+
+.summary-container-right {
+  width: 360px;
+}
+
+.summary-container-right .content-title,
+.summary-container-right .content {
+  width: 360px;
+}
+
+.stage-title {
+  font-family: circular-std-black, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  padding-top: 80px;
+}
+
+.stage-gray {
+  color: #3D3D3D;
+}
+
+.stage-white {
+  color: #E3E3E3;
+}
+
 .content-title {
   font-family: circular-std-bold, Arial, sans-serif;
   width: 784px;
@@ -717,6 +760,15 @@
   margin-right: auto;
   font-size: 26px;
   padding-top: 80px;
+}
+
+.content-title-second {
+  font-family: circular-std-bold, Arial, sans-serif;
+  width: 784px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  padding-top: 20px;
 }
 
 .content {
@@ -1112,7 +1164,7 @@
 }
 
 .prismlayout .solution .image {
-  width: 564px;
+  width: 784px;
 }
 
 .prismlayout .link a {
@@ -1475,6 +1527,14 @@
   background: -ms-linear-gradient(left, rgb(236, 114, 95) 0%, rgb(233, 75, 53) 100%);
   background: -moz-linear-gradient(left, rgb(236, 114, 95) 0%, rgb(233, 75, 53) 100%);
   background: linear-gradient(to right, rgb(236, 114, 95) 0%, rgb(233, 75, 53) 100%);
+}
+
+.schole .prototypes {
+  width: 100%;
+}
+
+.schole .prototypes {
+  width: 100%;
 }
 
 .schole .pc-designs {
