@@ -590,6 +590,27 @@
   font-size: 20px;
 }
 
+.about-content a:link,
+.about-content a:visited {
+  font-family: circular-std-medium, Arial, sans-serif;
+  text-decoration: none;
+  color: #02CF5D;
+}
+
+.about-content a:hover {
+  color: #000000;
+  text-decoration: none;
+  filter: brightness(0%);
+}
+
+.about-content img {
+  padding-left: 4px;
+  padding-top: 4px;
+  filter: invert(47%) sepia(79%) saturate(300%) hue-rotate(95deg) brightness(119%) contrast(112%);
+  width: 0.7em;
+  height: 0.7em;
+}
+
 .about-resume {
     width: 100%;
     margin-top: 60px;

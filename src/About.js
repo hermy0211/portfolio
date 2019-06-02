@@ -4,10 +4,12 @@ import './App.css';
 import './Responsive.css';
 import profile from "./img/profile.png";
 import resume from "./Resume_Anne Lee.pdf";
+import link from "./img/link-icon.svg"
 
 class About extends Component {
   state = {
-    hamburgerState: "off"
+    hamburgerState: "off",
+    link: link
   }
 
   componentDidMount() {
@@ -98,7 +100,7 @@ class About extends Component {
                 </div>
                 <div data-aos="">
                   <span className="about-title">Qualified in Programming</span><br/><br/>
-                  I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript, and my knowledge of technical limitations and possibilities lead to strong designer-developer relationships.<br/><br/><br/>
+                  I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript; in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My knowledge of technical limitations and possibilities also lead to strong designer-developer relationships.<br/><br/><br/>
                   Feel free to contact me for any inquiries about my portfolio and work opportunities!
                 </div>
               </div>
