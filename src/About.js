@@ -80,9 +80,9 @@ class About extends Component {
                   My most recent work has been focused around professional video production tools for streamers and creators. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints. I am capable of implementing complex technical features, such as quality optimization and timeline based editing.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
-                  <span className="about-title">Qualified in Programming</span><br/><br/>
-                  I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript, and my knowledge of technical limitations and possibilities lead to strong designer-developer relationships.<br/><br/><br/>
-                  Feel free to contact me for any inquiries about my portfolio and work opportunities!
+                <span className="about-title">Qualified in Programming</span><br/><br/>
+                I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript; in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My knowledge of technical limitations and possibilities also lead to strong designer-developer relationships.<br/><br/><br/>
+                Feel free to contact me for any inquiries about my portfolio and work opportunities!
                 </div>
               </div> :
               <div className="about-content">
