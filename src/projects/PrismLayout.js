@@ -129,7 +129,7 @@ class PrismLayout extends Component {
         <div className="background">
           <div className="stage-title stage-gray">ABOUT</div>
           <div className="content-title-second">PRISM Live Studio PC,<br/>The Live Broadcasting Software for Beginners</div>
-          <div className="content end">PRISM Live Studio is a live streaming app with which you can stream to major platforms such as YouTube, Twitch, and Facebook. It is available for both desktop and mobile, and provides many interactive features which helps the streamer create more engaging content.</div>
+          <div className="content end">PRISM Live Studio is a live streaming app used by over 120,000 unique streamers, with which you can stream to major platforms such as YouTube, Twitch, and Facebook. It is available for both desktop and mobile, and provides many interactive features which helps the streamer create more engaging content.</div>
         </div>
         <div className="effects">
           <div className="stage-title stage-gray">BACKGROUND</div>

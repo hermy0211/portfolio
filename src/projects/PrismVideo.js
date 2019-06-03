@@ -62,7 +62,7 @@ class PrismVideo extends Component {
         <div className="background">
           <div className="stage-title stage-gray">ABOUT</div>
           <div className="content-title-second">PRISM Live Studio Mobile,<br/>A Video Creator App with Fun Effects</div>
-          <div className="content middle">PRISM Live Studio is a video creator app with which you can create live streams or edit videos. In the video editing mode, you can create unique content by applying various effects to your video such as stickers, filters, and captions.</div>
+          <div className="content middle">PRISM Live Studio is a video creator app with which you can create live streams or edit videos. In the video editing mode, you can create unique content by applying various effects to your video such as stickers, filters, and captions. Nearly 600 videos are created with PRISM each day.</div>
           <iframe className="video end" src="https://player.vimeo.com/video/321151842" frameBorder="0" allowFullScreen mozallowfullscreen="true" title="Prism Mobile Demo"></iframe>
         </div>
         <div className="target">

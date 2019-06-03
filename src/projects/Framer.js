@@ -43,7 +43,7 @@ class Framer extends Component {
           <div className="content-title">Project Summary</div>
           <div className="content featured">This project was featured by the Framer team.</div>
           <div className="content end">
-            30 Days of Framer X is a personal prototyping project in which I coded 30 interactive prototypes within 30 days using Framer X and React. Through this project, I pushed the boundaries of the then early, undocumented tool despite the lack of resources. I shared my code and projects online, and it became a reference for others new to the program.
+            30 Days of Framer X is a personal prototyping project in which I coded 30 interactive prototypes within 30 days using Framer X and React. Through this project, I pushed the boundaries of the then early, undocumented tool despite the lack of resources. I shared my code and projects online, and it became a reference for others new to the program - receiving over 100 stars on Github.
           </div>
         </div>
         <div className="mockups">
