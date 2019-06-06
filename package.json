@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
+    "js-yaml": "^3.13.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-dom": "^4.3.1",
