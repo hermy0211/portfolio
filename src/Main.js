@@ -137,7 +137,7 @@ class Main extends Component {
                 image={this.state.projectTwoImage}
                 link="/prismlayout"
                 hmwClass="hmw hmw-exception"
-                class="project-default mobile"
+                class="project-default"
                 hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
                 color="rgba(251, 192, 96, 0.95)"
                 title="PRISM Live Layout Redesign"
