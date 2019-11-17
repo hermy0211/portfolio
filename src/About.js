@@ -60,7 +60,7 @@ class About extends Component {
             Product Designer
           </div>
           <div className="speciality">
-            UX / Interactive Prototyping
+            UX UI / Front-End Development
           </div>
         </section>
         <section className="about">
@@ -69,15 +69,15 @@ class About extends Component {
               <div className="about-content">
                 <div>
                   Hi, my name is Anne.<br/><br/>
-                  I am a UX designer currently working as a Product Designer at Naver, the #1 tech company in South Korea. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
+                  I am a Product Designer at Framer passionate about bridging technology and design. In the past I have worked for Naver, Korea's top search engine, and the Princeton Review. Here are a few things that describe me.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
                   <span className="about-title">Experience Designing from Brief to Shipment</span><br/><br/>
                   I have successfully shipped 5 digital products from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web, mobile and desktop.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
-                  <span className="about-title">Experience with Complex Interactive Products</span><br/><br/>
-                  My most recent work has been focused around professional video production tools for streamers and creators. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints. I am capable of implementing complex technical features, such as quality optimization and timeline based editing.<br/><br/><br/>
+                  <span className="about-title">Experience Designing for Creative Tools</span><br/><br/>
+                  Most of my recent work has been focused around tools for creatives. I am currently working on Framer Web, a collaborative design prototyping tool. In the past I have worked on professional video production tools for streamers. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
                 <span className="about-title">Qualified in Programming</span><br/><br/>
@@ -88,15 +88,15 @@ class About extends Component {
               <div className="about-content">
                 <div>
                   Hi, my name is Anne.<br/><br/>
-                  I am a UX designer currently working as a Product Designer at Naver, Korea's main search engine and top tech company. In the past I have worked for an edu-tech startup and a UX consulting agency. Here are a few things that describe me.<br/><br/><br/>
+                  I am a Product Designer at Framer passionate about bridging technology and design. In the past I have worked for Naver, Korea's top search engine, and the Princeton Review. Here are a few things that describe me.<br/><br/><br/>
                 </div>
                 <div data-aos="">
                   <span className="about-title">Experience Designing from Brief to Shipment</span><br/><br/>
                   I have successfully shipped 5 digital products from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web, mobile and desktop.<br/><br/><br/>
                 </div>
                 <div data-aos="">
-                  <span className="about-title">Experience with Complex Interactive Products</span><br/><br/>
-                  My most recent work has been focused around professional video production tools for streamers and creators. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints. I am capable of implementing complex technical features, such as quality optimization and timeline based editing.<br/><br/><br/>
+                  <span className="about-title">Experience Designing for Creative Tools</span><br/><br/>
+                  Most of my recent work has been focused around tools for creatives. I am currently working on Framer Web, a collaborative design prototyping tool. In the past I have worked on professional video production tools for streamers. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
                 </div>
                 <div data-aos="">
                   <span className="about-title">Qualified in Programming</span><br/><br/>
