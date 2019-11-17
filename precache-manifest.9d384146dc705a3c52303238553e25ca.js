@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img07.644c2173.png"
   },
   {
-    "revision": "3a2ee4094ccfbe3caa1f",
+    "revision": "63c79180a3eab96263ea",
     "url": "/static/css/main.55a18c7e.chunk.css"
   },
   {
@@ -24,20 +24,20 @@ self.__precacheManifest = [
     "url": "/static/media/CircularStd-BlackItalic.2153a12d.woff"
   },
   {
-    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
-    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
-  },
-  {
     "revision": "8d5dbe8149820b1202cbaf34b7204598",
     "url": "/static/media/CircularStd-BoldItalic.8d5dbe81.woff"
   },
   {
-    "revision": "eddb70218f38749eaeeed7fba894fda8",
-    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
+    "revision": "6f4fe3ca482221e7c0d8c1baa5f31100",
+    "url": "/static/media/CircularStd-Bold.6f4fe3ca.woff"
   },
   {
     "revision": "e47ea4c0b9151fe6cbd8e2f332113559",
     "url": "/static/media/CircularStd-Medium.e47ea4c0.woff"
+  },
+  {
+    "revision": "eddb70218f38749eaeeed7fba894fda8",
+    "url": "/static/media/CircularStd-MediumItalic.eddb7021.woff"
   },
   {
     "revision": "c47d7e581f2a563f8dedd4509c106fb8",
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/static/media/prismlayout-img06.801f7d7a.png"
   },
   {
-    "revision": "3a2ee4094ccfbe3caa1f",
-    "url": "/static/js/main.fca65ba4.chunk.js"
+    "revision": "63c79180a3eab96263ea",
+    "url": "/static/js/main.3af8d23e.chunk.js"
   },
   {
     "revision": "7eead936977e763e4e129bb93430519e",
@@ -200,15 +200,15 @@ self.__precacheManifest = [
     "url": "/static/media/profile.656c0f4c.png"
   },
   {
-    "revision": "2de755afc217cae0780820241c1ad669",
-    "url": "/static/media/Resume_Anne Lee.2de755af.pdf"
+    "revision": "98fb8ebd242d2d5b03101ff3dde3773f",
+    "url": "/static/media/Resume_Anne Lee.98fb8ebd.pdf"
   },
   {
     "revision": "9dd4203f5af96a07b048f63b39e8fe35",
     "url": "/static/media/link-icon.9dd4203f.svg"
   },
   {
-    "revision": "1458f8f498ef587dfa0671e3c8dddb29",
+    "revision": "d4e17652683d0f1810545010d07de903",
     "url": "/index.html"
   }
 ];
